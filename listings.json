@@ -1,0 +1,1768 @@
+{
+ "updated": "2026-11-14",
+ "criteria": {
+  "cities": [
+   "Turlock, CA",
+   "Patterson, CA"
+  ],
+  "beds": 2,
+  "priceMin": 1500,
+  "priceMax": 2300,
+  "washerDryer": "in-unit or hookups (unconfirmed shown when the listing doesn't say)"
+ },
+ "listings": [
+  {
+   "id": "124-starr-turlock",
+   "title": "124-136 Starr Ave",
+   "address": "124-136 Starr Ave",
+   "city": "Turlock",
+   "price": 1650,
+   "priceMax": null,
+   "beds": 2,
+   "baths": 1.0,
+   "washerDryer": "unconfirmed",
+   "washerDryerNote": "Laundry not stated in listing",
+   "url": "https://www.zillow.com/homedetails/124-136-Starr-Ave-Turlock-CA-95380/466630865_zpid/",
+   "source": "Zillow",
+   "sources": [
+    {
+     "name": "Zillow",
+     "url": "https://www.zillow.com/homedetails/124-136-Starr-Ave-Turlock-CA-95380/466630865_zpid/"
+    }
+   ],
+   "photo": "https://photos.zillowstatic.com/fp/6f9d9f3605b1485b2b40eb63caf20d8d-p_e.jpg",
+   "posted": "2026-11-14",
+   "firstSeen": "2026-11-14",
+   "lastSeen": "2026-11-14",
+   "status": "active",
+   "sourceIds": [
+    "trulia:466630865_ZPID",
+    "zillow:466630865"
+   ]
+  },
+  {
+   "id": "1700-tully-turlock",
+   "title": "Oak Park Apartments · 1700 N Tully Rd",
+   "address": "1700 N Tully Rd",
+   "city": "Turlock",
+   "price": 1600,
+   "priceMax": 1990,
+   "beds": 2,
+   "baths": "1–2",
+   "washerDryer": "hookups",
+   "washerDryerNote": "Listings say washer/dryer hookups in all apartments",
+   "url": "https://www.zillow.com/apartments/turlock-ca/oak-park-apartments/5XjxJk/",
+   "source": "Zillow",
+   "sources": [
+    {
+     "name": "Zillow",
+     "url": "https://www.zillow.com/apartments/turlock-ca/oak-park-apartments/5XjxJk/"
+    },
+    {
+     "name": "Craigslist",
+     "url": "https://www.craigslist.org/view/d/turlock-elevate-your-everyday-living/fVYLDEj3vkB7jM543Jcfm4"
+    },
+    {
+     "name": "Craigslist",
+     "url": "https://www.craigslist.org/view/d/turlock-your-next-home-is-waiting-tour/c25xZyi6DXVN5MdTTVES9q"
+    },
+    {
+     "name": "Craigslist",
+     "url": "https://www.craigslist.org/view/d/turlock-special-500-off-first-months/87ZauEnbAZbkbbnEwZVygd"
+    }
+   ],
+   "photo": "https://photos.zillowstatic.com/fp/6df533a4ebb2ec8651129efc850c3a5d-p_e.jpg",
+   "posted": "2026-11-14",
+   "firstSeen": "2026-11-14",
+   "lastSeen": "2026-11-14",
+   "status": "active",
+   "sourceIds": [
+    "craigslist:7975450665",
+    "craigslist:7975680756",
+    "craigslist:7976236821",
+    "craigslist:7976971818",
+    "craigslist:7976973606",
+    "craigslist:7977021225",
+    "craigslist:7977512778",
+    "craigslist:7977514179",
+    "craigslist:7978887627",
+    "craigslist:7978894620",
+    "craigslist:7979468907",
+    "craigslist:7979472186",
+    "craigslist:7981279794",
+    "craigslist:7981281102",
+    "craigslist:7982848347",
+    "craigslist:7983387375",
+    "craigslist:7983954513",
+    "craigslist:7985212572",
+    "craigslist:7985217228",
+    "craigslist:7985222757",
+    "craigslist:7987551747",
+    "craigslist:7987560549",
+    "craigslist:7987563216",
+    "craigslist:7987644942",
+    "craigslist:7987946067",
+    "craigslist:7989273126",
+    "craigslist:7989274281",
+    "craigslist:7990991451",
+    "craigslist:7990996848",
+    "craigslist:7991025843",
+    "craigslist:7993069332",
+    "craigslist:7993073517",
+    "craigslist:7994833020",
+    "craigslist:7994834007",
+    "craigslist:7994840889",
+    "craigslist:7995444054",
+    "craigslist:7996012185",
+    "craigslist:7996016280",
+    "craigslist:7996016778",
+    "craigslist:7999227201",
+    "craigslist:7999227834",
+    "craigslist:7999738056",
+    "craigslist:7999765152",
+    "craigslist:8000768886",
+    "craigslist:8000770986",
+    "trulia:1001539456_BUILDING_ID",
+    "zillow:37.50988--120.86959"
+   ]
+  },
+  {
+   "id": "4389-walnut-turlock",
+   "title": "4389 N Walnut Rd",
+   "address": "4389 N Walnut Rd",
+   "city": "Turlock",
+   "price": 2105,
+   "priceMax": null,
+   "beds": 2,
+   "baths": 2.0,
+   "washerDryer": "in-unit",
+   "washerDryerNote": "Craigslist laundry tag: w/d in unit",
+   "url": "https://www.craigslist.org/view/d/turlock-gorgeous-interiors-private/bWsz8EfPmPnER3bt8rQyit",
+   "source": "Craigslist",
+   "sources": [
+    {
+     "name": "Craigslist",
+     "url": "https://www.craigslist.org/view/d/turlock-gorgeous-interiors-private/bWsz8EfPmPnER3bt8rQyit"
+    },
+    {
+     "name": "Craigslist",
+     "url": "https://www.craigslist.org/view/d/turlock-stunning-granite-kitchens/i1AgY3TBdbVwyHnpxW4St4"
+    },
+    {
+     "name": "Craigslist",
+     "url": "https://www.craigslist.org/view/d/turlock-unbeatable-turlock-living/otz9tJkT9AkFy3qodes8Fi"
+    }
+   ],
+   "photo": "https://images.craigslist.org/00d0d_5e1JaFJ5Dvh_0au0dZ_600x450.jpg",
+   "posted": "2026-11-14",
+   "firstSeen": "2026-11-14",
+   "lastSeen": "2026-11-14",
+   "status": "active",
+   "sourceIds": [
+    "craigslist:7999487700",
+    "craigslist:7999668411",
+    "craigslist:8000567595"
+   ]
+  },
+  {
+   "id": "128-salado-patterson",
+   "title": "128 N Salado Ave",
+   "address": "128 N Salado Ave",
+   "city": "Patterson",
+   "price": 1750,
+   "priceMax": null,
+   "beds": 2,
+   "baths": 1.0,
+   "washerDryer": "hookups",
+   "washerDryerNote": "Realtor.com: laundry hook up; indoor laundry",
+   "url": "https://www.zillow.com/homedetails/128-N-Salado-Ave-Patterson-CA-95363/466445469_zpid/",
+   "source": "Zillow",
+   "sources": [
+    {
+     "name": "Zillow",
+     "url": "https://www.zillow.com/homedetails/128-N-Salado-Ave-Patterson-CA-95363/466445469_zpid/"
+    },
+    {
+     "name": "Realtor.com",
+     "url": "https://www.realtor.com/rentals/details/128-N-Salado-Ave_Patterson_CA_95363_M99751-65086"
+    }
+   ],
+   "photo": "https://photos.zillowstatic.com/fp/5fbb4c1430d8fd7b1112fc99c8755e70-p_e.jpg",
+   "posted": "2026-11-13",
+   "firstSeen": "2026-11-14",
+   "lastSeen": "2026-11-14",
+   "status": "active",
+   "sourceIds": [
+    "realtor:9975165086",
+    "trulia:466445469_ZPID",
+    "zillow:466445469"
+   ]
+  },
+  {
+   "id": "cl-kenwood-1800-turlock",
+   "title": "House near Kenwood Ave & Canal Dr (Casa en renta)",
+   "address": "Kenwood",
+   "city": "Turlock",
+   "price": 1800,
+   "priceMax": null,
+   "beds": 2,
+   "baths": 1.0,
+   "washerDryer": "in-unit",
+   "washerDryerNote": "Craigslist laundry tag: w/d in unit",
+   "url": "https://www.craigslist.org/view/d/turlock-casa-en-renta/74qLAyBWdwmuUJcTSaU8Jk",
+   "source": "Craigslist",
+   "sources": [
+    {
+     "name": "Craigslist",
+     "url": "https://www.craigslist.org/view/d/turlock-casa-en-renta/74qLAyBWdwmuUJcTSaU8Jk"
+    }
+   ],
+   "photo": "https://images.craigslist.org/00i0i_eLEHWKA6Owq_0t20CI_600x450.jpg",
+   "posted": "2026-11-13",
+   "firstSeen": "2026-11-14",
+   "lastSeen": "2026-11-14",
+   "status": "active",
+   "sourceIds": [
+    "craigslist:8000295297"
+   ]
+  },
+  {
+   "id": "275-minnesota-turlock",
+   "title": "275 E. Minnesota Avenue",
+   "address": "275 E. Minnesota Avenue",
+   "city": "Turlock",
+   "price": 1795,
+   "priceMax": 1845,
+   "beds": 2,
+   "baths": "1–2",
+   "washerDryer": "hookups",
+   "washerDryerNote": "Craigslist laundry tag: w/d hookups",
+   "url": "https://www.craigslist.org/view/d/turlock-act-fast-updated-move-in/1rM94zQ9MU6PdZdDjxoby2",
+   "source": "Craigslist",
+   "sources": [
+    {
+     "name": "Craigslist",
+     "url": "https://www.craigslist.org/view/d/turlock-act-fast-updated-move-in/1rM94zQ9MU6PdZdDjxoby2"
+    },
+    {
+     "name": "Craigslist",
+     "url": "https://www.craigslist.org/view/d/turlock-special-savings-available-on/1JK86Fn6xBTCKpdKjtmghp"
+    },
+    {
+     "name": "Craigslist",
+     "url": "https://www.craigslist.org/view/d/turlock-dont-miss-out-on-our-specials/6mT3AUNW4DscCZ4SJdFSPZ"
+    }
+   ],
+   "photo": "https://images.craigslist.org/00e0e_hCOyuamdM2a_0jm0cU_600x450.jpg",
+   "posted": "2026-11-13",
+   "firstSeen": "2026-11-14",
+   "lastSeen": "2026-11-14",
+   "status": "active",
+   "sourceIds": [
+    "craigslist:7999476900",
+    "craigslist:7999543497",
+    "craigslist:7999647078",
+    "craigslist:7999701969",
+    "craigslist:8000017191",
+    "craigslist:8000092578",
+    "craigslist:8000207304",
+    "craigslist:8000248236"
+   ]
+  },
+  {
+   "id": "100-hawkeye-turlock",
+   "title": "100 E Hawkeye Ave #14-11-17",
+   "address": "100 E Hawkeye Ave #14-11-17",
+   "city": "Turlock",
+   "price": 1500,
+   "priceMax": null,
+   "beds": 2,
+   "baths": 1.0,
+   "washerDryer": "unconfirmed",
+   "washerDryerNote": "Laundry not stated in listing",
+   "url": "https://www.zillow.com/homedetails/100-E-Hawkeye-Ave-14-11-17-Turlock-CA-95380/460916951_zpid/",
+   "source": "Zillow",
+   "sources": [
+    {
+     "name": "Zillow",
+     "url": "https://www.zillow.com/homedetails/100-E-Hawkeye-Ave-14-11-17-Turlock-CA-95380/460916951_zpid/"
+    }
+   ],
+   "photo": "https://photos.zillowstatic.com/fp/0f60b8de38d7425ed02407ecf549c0b3-p_e.jpg",
+   "posted": "2026-11-12",
+   "firstSeen": "2026-11-14",
+   "lastSeen": "2026-11-14",
+   "status": "active",
+   "sourceIds": [
+    "trulia:460916951_ZPID",
+    "zillow:460916951"
+   ]
+  },
+  {
+   "id": "245-almond-turlock",
+   "title": "245 Almond Ave #119",
+   "address": "245 Almond Ave #119",
+   "city": "Turlock",
+   "price": 1750,
+   "priceMax": null,
+   "beds": 2,
+   "baths": 1.0,
+   "washerDryer": "hookups",
+   "washerDryerNote": "Listing: inside washer/dryer hookups",
+   "url": "https://www.zillow.com/homedetails/245-Almond-Ave-APT-119-Turlock-CA-95380/466522446_zpid/",
+   "source": "Zillow",
+   "sources": [
+    {
+     "name": "Zillow",
+     "url": "https://www.zillow.com/homedetails/245-Almond-Ave-APT-119-Turlock-CA-95380/466522446_zpid/"
+    },
+    {
+     "name": "Craigslist",
+     "url": "https://www.craigslist.org/view/d/turlock-br-ba-apartment-garage/3Cm8EY9QiqtCyUqbNnx4K8"
+    }
+   ],
+   "photo": "https://photos.zillowstatic.com/fp/fe158d02f8ba539749c22fc1dd000106-p_e.jpg",
+   "posted": "2026-11-12",
+   "firstSeen": "2026-11-14",
+   "lastSeen": "2026-11-14",
+   "status": "active",
+   "sourceIds": [
+    "craigslist:7998492132",
+    "trulia:466522446_ZPID",
+    "zillow:466522446"
+   ]
+  },
+  {
+   "id": "590-n-turlock",
+   "title": "590 N 1st St",
+   "address": "590 N 1st St",
+   "city": "Turlock",
+   "price": 1950,
+   "priceMax": null,
+   "beds": 2,
+   "baths": 1.0,
+   "washerDryer": "hookups",
+   "washerDryerNote": "Craigslist laundry tag: w/d hookups",
+   "url": "https://www.zillow.com/homedetails/590-N-1st-St-Turlock-CA-95380/2105171545_zpid/",
+   "source": "Zillow",
+   "sources": [
+    {
+     "name": "Zillow",
+     "url": "https://www.zillow.com/homedetails/590-N-1st-St-Turlock-CA-95380/2105171545_zpid/"
+    },
+    {
+     "name": "Realtor.com",
+     "url": "https://www.realtor.com/rentals/details/590-N-1st-St_Turlock_CA_95380_M24620-61268"
+    },
+    {
+     "name": "Craigslist",
+     "url": "https://www.craigslist.org/view/d/turlock-nbm-cozy-bedroom-bath-with-huge/9C57gSgDwgCnGuHPe3Svfx"
+    }
+   ],
+   "photo": "https://photos.zillowstatic.com/fp/7b1916d1d39b780e47138252387d81ab-p_e.jpg",
+   "posted": "2026-11-12",
+   "firstSeen": "2026-11-14",
+   "lastSeen": "2026-11-14",
+   "status": "active",
+   "sourceIds": [
+    "craigslist:7996005681",
+    "realtor:2462061268",
+    "trulia:2105171545_ZPID",
+    "zillow:2105171545"
+   ]
+  },
+  {
+   "id": "3050-andre-turlock",
+   "title": "3050 Andre Ln",
+   "address": "3050 Andre Ln",
+   "city": "Turlock",
+   "price": 1800,
+   "priceMax": null,
+   "beds": 2,
+   "baths": 2.5,
+   "washerDryer": "in-unit",
+   "washerDryerNote": "Inside laundry area with washer & dryer",
+   "url": "https://www.zillow.com/homedetails/3050-Andre-Ln-Turlock-CA-95382/16046765_zpid/",
+   "source": "Zillow",
+   "sources": [
+    {
+     "name": "Zillow",
+     "url": "https://www.zillow.com/homedetails/3050-Andre-Ln-Turlock-CA-95382/16046765_zpid/"
+    },
+    {
+     "name": "Realtor.com",
+     "url": "https://www.realtor.com/rentals/details/3050-Andre-Ln_Turlock_CA_95382_M21398-39908"
+    },
+    {
+     "name": "Craigslist",
+     "url": "https://www.craigslist.org/view/d/turlock-3050-andre-lane/pchGjbFNGA2Bh3TCaeuzzj"
+    }
+   ],
+   "photo": "https://photos.zillowstatic.com/fp/1d7f97e05521155ed3b58e12237caa9e-p_e.jpg",
+   "posted": "2026-11-12",
+   "firstSeen": "2026-11-14",
+   "lastSeen": "2026-11-14",
+   "status": "active",
+   "sourceIds": [
+    "craigslist:7995390060",
+    "realtor:2139839908",
+    "trulia:16046765_ZPID",
+    "zillow:16046765"
+   ]
+  },
+  {
+   "id": "809-ashwood-patterson",
+   "title": "809 Ashwood Way",
+   "address": "809 Ashwood Way",
+   "city": "Patterson",
+   "price": 2275,
+   "priceMax": null,
+   "beds": 2,
+   "baths": 2.0,
+   "washerDryer": "in-unit",
+   "washerDryerNote": "Upstairs laundry room with washer and dryer",
+   "url": "https://www.zillow.com/apartments/patterson-ca/villages-of-patterson-3/CtT9J2/",
+   "source": "Zillow",
+   "sources": [
+    {
+     "name": "Zillow",
+     "url": "https://www.zillow.com/apartments/patterson-ca/villages-of-patterson-3/CtT9J2/"
+    },
+    {
+     "name": "Realtor.com",
+     "url": "https://www.realtor.com/rentals/details/809-Ashwood-Way_Patterson_CA_95363_M91694-45372"
+    },
+    {
+     "name": "Craigslist",
+     "url": "https://www.craigslist.org/view/d/patterson-nbm-move-in-now-receive/ai2LnmeVWL1EMRhdDyTURE"
+    }
+   ],
+   "photo": "https://photos.zillowstatic.com/fp/523991cbf2e1711c8d590600ae0f61c4-p_e.jpg",
+   "posted": "2026-11-12",
+   "firstSeen": "2026-11-14",
+   "lastSeen": "2026-11-14",
+   "status": "active",
+   "sourceIds": [
+    "craigslist:7982525124",
+    "realtor:9169445372",
+    "trulia:2792887104_BUILDING_ID",
+    "zillow:2052891009"
+   ]
+  },
+  {
+   "id": "805-ashwood-patterson",
+   "title": "805 Ashwood Ln",
+   "address": "805 Ashwood Ln",
+   "city": "Patterson",
+   "price": 2250,
+   "priceMax": null,
+   "beds": 2,
+   "baths": 2.0,
+   "washerDryer": "in-unit",
+   "washerDryerNote": "Craigslist laundry tag: w/d in unit",
+   "url": "https://www.craigslist.org/view/d/patterson-nbm-move-in-now-receive/het39eNPgEq6UBAZbBDB4A",
+   "source": "Craigslist",
+   "sources": [
+    {
+     "name": "Craigslist",
+     "url": "https://www.craigslist.org/view/d/patterson-nbm-move-in-now-receive/het39eNPgEq6UBAZbBDB4A"
+    }
+   ],
+   "photo": "https://images.craigslist.org/00O0O_eD7TpejRbE5_0jm0t2_600x450.jpg",
+   "posted": "2026-11-12",
+   "firstSeen": "2026-11-14",
+   "lastSeen": "2026-11-14",
+   "status": "active",
+   "sourceIds": [
+    "craigslist:7982527449"
+   ]
+  },
+  {
+   "id": "3108-james-turlock",
+   "title": "3108 James Ln",
+   "address": "3108 James Ln",
+   "city": "Turlock",
+   "price": 2200,
+   "priceMax": null,
+   "beds": 2,
+   "baths": null,
+   "washerDryer": "unconfirmed",
+   "washerDryerNote": "Laundry not stated in listing",
+   "url": "https://www.realtor.com/rentals/details/3108-James-Ln_Turlock_CA_95382_M20636-12710",
+   "source": "Realtor.com",
+   "sources": [
+    {
+     "name": "Realtor.com",
+     "url": "https://www.realtor.com/rentals/details/3108-James-Ln_Turlock_CA_95382_M20636-12710"
+    }
+   ],
+   "photo": "https://ar.rdcpix.com/50282e1aa19f7591e3704acfbbe2e727c-f2741054887s.jpg",
+   "posted": "2026-11-12",
+   "firstSeen": "2026-11-14",
+   "lastSeen": "2026-11-14",
+   "status": "active",
+   "sourceIds": [
+    "realtor:2063612710"
+   ]
+  },
+  {
+   "id": "657-chestnut-turlock",
+   "title": "657 Chestnut St #657",
+   "address": "657 Chestnut St #657",
+   "city": "Turlock",
+   "price": 1705,
+   "priceMax": null,
+   "beds": 2,
+   "baths": 1.0,
+   "washerDryer": "hookups",
+   "washerDryerNote": "Inside laundry room with hookups",
+   "url": "https://www.zillow.com/homedetails/657-Chestnut-St-657-Turlock-CA-95380/2054010814_zpid/",
+   "source": "Zillow",
+   "sources": [
+    {
+     "name": "Zillow",
+     "url": "https://www.zillow.com/homedetails/657-Chestnut-St-657-Turlock-CA-95380/2054010814_zpid/"
+    },
+    {
+     "name": "Craigslist",
+     "url": "https://www.craigslist.org/view/d/turlock-large-2br-duplex-inside-laundry/kVPh2iteAMpMVLt4nTQBp4"
+    }
+   ],
+   "photo": "https://photos.zillowstatic.com/fp/8791e6753ac0f9d2c532aa253eb3fc23-p_e.jpg",
+   "posted": "2026-11-11",
+   "firstSeen": "2026-11-14",
+   "lastSeen": "2026-11-14",
+   "status": "active",
+   "sourceIds": [
+    "craigslist:7995479940",
+    "trulia:2054010814_ZPID",
+    "zillow:2054010814"
+   ]
+  },
+  {
+   "id": "957-wakefield-turlock",
+   "title": "957 Wakefield Rd",
+   "address": "957 Wakefield Rd",
+   "city": "Turlock",
+   "price": 1750,
+   "priceMax": 1850,
+   "beds": 2,
+   "baths": "1–1.5",
+   "washerDryer": "unconfirmed",
+   "washerDryerNote": "Zillow lists 'Washer'; Craigslist tag says laundry on site",
+   "url": "https://www.zillow.com/homedetails/957-Wakefield-Rd-Turlock-CA-95380/463727889_zpid/",
+   "source": "Zillow",
+   "sources": [
+    {
+     "name": "Zillow",
+     "url": "https://www.zillow.com/homedetails/957-Wakefield-Rd-Turlock-CA-95380/463727889_zpid/"
+    },
+    {
+     "name": "Craigslist",
+     "url": "https://www.craigslist.org/view/d/turlock-newly-renovated-bedroom/iTvbHGiJ86dFDKbJJPGsJz"
+    }
+   ],
+   "photo": "https://photos.zillowstatic.com/fp/4cee9d473bc4b7f1ff95caddd1e3392c-p_e.jpg",
+   "posted": "2026-11-09",
+   "firstSeen": "2026-11-14",
+   "lastSeen": "2026-11-14",
+   "status": "active",
+   "sourceIds": [
+    "craigslist:7997969823",
+    "trulia:463727889_ZPID",
+    "zillow:463727889"
+   ]
+  },
+  {
+   "id": "1127-colorado-turlock",
+   "title": "1127 Colorado Ave #19",
+   "address": "1127 Colorado Ave #19",
+   "city": "Turlock",
+   "price": 1650,
+   "priceMax": null,
+   "beds": 2,
+   "baths": 1.0,
+   "washerDryer": "unconfirmed",
+   "washerDryerNote": "Laundry not stated in listing",
+   "url": "https://www.zillow.com/homedetails/1127-Colorado-Ave-19-Turlock-CA-95380/457349318_zpid/",
+   "source": "Zillow",
+   "sources": [
+    {
+     "name": "Zillow",
+     "url": "https://www.zillow.com/homedetails/1127-Colorado-Ave-19-Turlock-CA-95380/457349318_zpid/"
+    }
+   ],
+   "photo": "https://photos.zillowstatic.com/fp/2f3940a577eb203242e1275aeb919fe6-p_e.jpg",
+   "posted": "2026-11-05",
+   "firstSeen": "2026-11-14",
+   "lastSeen": "2026-11-14",
+   "status": "active",
+   "sourceIds": [
+    "trulia:457349318_ZPID",
+    "zillow:457349318"
+   ]
+  },
+  {
+   "id": "225-s-patterson",
+   "title": "225D S 5th St #225D",
+   "address": "225D S 5th St #225D",
+   "city": "Patterson",
+   "price": 1800,
+   "priceMax": null,
+   "beds": 2,
+   "baths": 1.0,
+   "washerDryer": "unconfirmed",
+   "washerDryerNote": "Laundry not stated in listing",
+   "url": "https://www.zillow.com/homedetails/225D-S-5th-St-225D-Patterson-CA-95363/466464308_zpid/",
+   "source": "Zillow",
+   "sources": [
+    {
+     "name": "Zillow",
+     "url": "https://www.zillow.com/homedetails/225D-S-5th-St-225D-Patterson-CA-95363/466464308_zpid/"
+    }
+   ],
+   "photo": "https://photos.zillowstatic.com/fp/3b22772756d1bbc1ddd70107036d5c16-p_e.jpg",
+   "posted": "2026-11-05",
+   "firstSeen": "2026-11-14",
+   "lastSeen": "2026-11-14",
+   "status": "active",
+   "sourceIds": [
+    "trulia:466464308_ZPID",
+    "zillow:466464308"
+   ]
+  },
+  {
+   "id": "214-s-patterson",
+   "title": "214 S 3rd St #214",
+   "address": "214 S 3rd St #214",
+   "city": "Patterson",
+   "price": 1900,
+   "priceMax": null,
+   "beds": 2,
+   "baths": 1.0,
+   "washerDryer": "unconfirmed",
+   "washerDryerNote": "Laundry not stated in listing",
+   "url": "https://www.zillow.com/homedetails/214-S-3rd-St-214-Patterson-CA-95363/466452973_zpid/",
+   "source": "Zillow",
+   "sources": [
+    {
+     "name": "Zillow",
+     "url": "https://www.zillow.com/homedetails/214-S-3rd-St-214-Patterson-CA-95363/466452973_zpid/"
+    }
+   ],
+   "photo": "https://photos.zillowstatic.com/fp/60fb60509de687c80e11f26793a221b0-p_e.jpg",
+   "posted": "2026-11-05",
+   "firstSeen": "2026-11-14",
+   "lastSeen": "2026-11-14",
+   "status": "active",
+   "sourceIds": [
+    "trulia:466452973_ZPID",
+    "zillow:466452973"
+   ]
+  },
+  {
+   "id": "3701-crowell-turlock",
+   "title": "3701 Crowell Rd",
+   "address": "3701 Crowell Rd",
+   "city": "Turlock",
+   "price": 1699,
+   "priceMax": 1775,
+   "beds": 2,
+   "baths": 1.0,
+   "washerDryer": "unconfirmed",
+   "washerDryerNote": "Craigslist tag: laundry on site (may be shared)",
+   "url": "https://www.realtor.com/rentals/details/3701-Crowell-Rd-35-24_Turlock_CA_95382_M95429-27739",
+   "source": "Realtor.com",
+   "sources": [
+    {
+     "name": "Realtor.com",
+     "url": "https://www.realtor.com/rentals/details/3701-Crowell-Rd-35-24_Turlock_CA_95382_M95429-27739"
+    },
+    {
+     "name": "Craigslist",
+     "url": "https://www.craigslist.org/view/d/turlock-big-savings-just-dropped-at/qJievAxtoNmg3psgZES8m5"
+    }
+   ],
+   "photo": "https://images.craigslist.org/00c0c_jrgSGhY1uRS_0hN0n0_600x450.jpg",
+   "posted": "2026-11-04",
+   "firstSeen": "2026-11-14",
+   "lastSeen": "2026-11-14",
+   "status": "active",
+   "sourceIds": [
+    "craigslist:7995196740",
+    "realtor:9542927739"
+   ]
+  },
+  {
+   "id": "3350-radcliff-turlock",
+   "title": "3350 Radcliff Way #1A",
+   "address": "3350 Radcliff Way #1A",
+   "city": "Turlock",
+   "price": 1800,
+   "priceMax": null,
+   "beds": 2,
+   "baths": 1.0,
+   "washerDryer": "in-unit",
+   "washerDryerNote": "Refrigerator, washer and dryer provided with the unit",
+   "url": "https://www.zillow.com/homedetails/3350-Radcliff-Way-1A-Turlock-CA-95382/466416715_zpid/",
+   "source": "Zillow",
+   "sources": [
+    {
+     "name": "Zillow",
+     "url": "https://www.zillow.com/homedetails/3350-Radcliff-Way-1A-Turlock-CA-95382/466416715_zpid/"
+    }
+   ],
+   "photo": "https://photos.zillowstatic.com/fp/f06ff0ad980a3239bd462c5320a8a749-p_e.jpg",
+   "posted": "2026-11-03",
+   "firstSeen": "2026-11-14",
+   "lastSeen": "2026-11-14",
+   "status": "active",
+   "sourceIds": [
+    "trulia:466416715_ZPID",
+    "zillow:466416715"
+   ]
+  },
+  {
+   "id": "300-soderquist-turlock",
+   "title": "300 N Soderquist Rd",
+   "address": "300 N Soderquist Rd",
+   "city": "Turlock",
+   "price": 2000,
+   "priceMax": null,
+   "beds": 2,
+   "baths": 1.0,
+   "washerDryer": "hookups",
+   "washerDryerNote": "Inside laundry hookups",
+   "url": "https://www.zillow.com/homedetails/300-N-Soderquist-Rd-Turlock-CA-95380/113060054_zpid/",
+   "source": "Zillow",
+   "sources": [
+    {
+     "name": "Zillow",
+     "url": "https://www.zillow.com/homedetails/300-N-Soderquist-Rd-Turlock-CA-95380/113060054_zpid/"
+    },
+    {
+     "name": "Realtor.com",
+     "url": "https://www.realtor.com/rentals/details/300-N-Soderquist-Rd_Turlock_CA_95380_M91646-20920"
+    }
+   ],
+   "photo": "https://photos.zillowstatic.com/fp/650eb186269158e62c502a7392be4b4b-p_e.jpg",
+   "posted": "2026-11-01",
+   "firstSeen": "2026-11-14",
+   "lastSeen": "2026-11-14",
+   "status": "active",
+   "sourceIds": [
+    "realtor:9164620920",
+    "trulia:113060054_ZPID",
+    "zillow:113060054"
+   ]
+  },
+  {
+   "id": "865-mitchell-turlock",
+   "title": "865 Mitchell Ave #A",
+   "address": "865 Mitchell Ave #A",
+   "city": "Turlock",
+   "price": 1750,
+   "priceMax": null,
+   "beds": 2,
+   "baths": 2.0,
+   "washerDryer": "unconfirmed",
+   "washerDryerNote": "Laundry not stated in listing",
+   "url": "https://www.zillow.com/homedetails/865-Mitchell-Ave-A-Turlock-CA-95380/463013873_zpid/",
+   "source": "Zillow",
+   "sources": [
+    {
+     "name": "Zillow",
+     "url": "https://www.zillow.com/homedetails/865-Mitchell-Ave-A-Turlock-CA-95380/463013873_zpid/"
+    }
+   ],
+   "photo": "https://photos.zillowstatic.com/fp/58618847342f69cf2d0ffde111463807-p_e.jpg",
+   "posted": "2026-10-30",
+   "firstSeen": "2026-11-14",
+   "lastSeen": "2026-11-14",
+   "status": "active",
+   "sourceIds": [
+    "trulia:463013873_ZPID",
+    "zillow:463013873"
+   ]
+  },
+  {
+   "id": "3697-tuscany-turlock",
+   "title": "3697 Tuscany Pl",
+   "address": "3697 Tuscany Pl",
+   "city": "Turlock",
+   "price": 2000,
+   "priceMax": null,
+   "beds": 2,
+   "baths": 2.5,
+   "washerDryer": "hookups",
+   "washerDryerNote": "Indoor washer and dryer hookups (Realtor.com also lists washer/dryer)",
+   "url": "https://www.realtor.com/rentals/details/3697-Tuscany-Pl_Turlock_CA_95382_M95255-83869",
+   "source": "Realtor.com",
+   "sources": [
+    {
+     "name": "Realtor.com",
+     "url": "https://www.realtor.com/rentals/details/3697-Tuscany-Pl_Turlock_CA_95382_M95255-83869"
+    }
+   ],
+   "photo": "https://ap.rdcpix.com/5cd695faf66d6467f180a6cbf777e4a6l-m228297682s.jpg",
+   "posted": "2026-10-29",
+   "firstSeen": "2026-11-14",
+   "lastSeen": "2026-11-14",
+   "status": "active",
+   "sourceIds": [
+    "realtor:9525583869"
+   ]
+  },
+  {
+   "id": "cl-alaska-st-1850-turlock",
+   "title": "Alaska St duplex, 2 bd / 1 ba",
+   "address": "Alaska St",
+   "city": "Turlock",
+   "price": 1850,
+   "priceMax": null,
+   "beds": 2,
+   "baths": 1.0,
+   "washerDryer": "hookups",
+   "washerDryerNote": "2 of 3 Craigslist posts tag w/d hookups (1 says in unit)",
+   "url": "https://www.craigslist.org/view/d/turlock-bedroom-bath-duplex-turlock/rRrrK2y1ZCBZX28kwTd3fD",
+   "source": "Craigslist",
+   "sources": [
+    {
+     "name": "Craigslist",
+     "url": "https://www.craigslist.org/view/d/turlock-bedroom-bath-duplex-turlock/rRrrK2y1ZCBZX28kwTd3fD"
+    },
+    {
+     "name": "Craigslist",
+     "url": "https://www.craigslist.org/view/d/turlock-bedroom-duplex-available-in/qkz176msMcgvm7AUSdyLA8"
+    },
+    {
+     "name": "Craigslist",
+     "url": "https://www.craigslist.org/view/d/turlock-bedroom-bath-duplex-for-rent/b7cEB5YS6MrwAg2E3eWRt8"
+    }
+   ],
+   "photo": "https://images.craigslist.org/01111_eUumlk2xEew_0ak07K_600x450.jpg",
+   "posted": "2026-10-27",
+   "firstSeen": "2026-11-14",
+   "lastSeen": "2026-11-14",
+   "status": "active",
+   "sourceIds": [
+    "craigslist:7975808892",
+    "craigslist:7984954920",
+    "craigslist:7990967007"
+   ]
+  },
+  {
+   "id": "3426-fosberg-turlock",
+   "title": "3426 Fosberg Rd",
+   "address": "3426 Fosberg Rd",
+   "city": "Turlock",
+   "price": 1750,
+   "priceMax": null,
+   "beds": 2,
+   "baths": 1.0,
+   "washerDryer": "unconfirmed",
+   "washerDryerNote": "Craigslist tag: laundry on site (may be shared)",
+   "url": "https://www.craigslist.org/view/d/turlock-bed-bath-unit-with-separate-car/1DDMzTUze3NxMZHW9xqxf5",
+   "source": "Craigslist",
+   "sources": [
+    {
+     "name": "Craigslist",
+     "url": "https://www.craigslist.org/view/d/turlock-bed-bath-unit-with-separate-car/1DDMzTUze3NxMZHW9xqxf5"
+    }
+   ],
+   "photo": null,
+   "posted": "2026-10-26",
+   "firstSeen": "2026-11-14",
+   "lastSeen": "2026-11-14",
+   "status": "active",
+   "sourceIds": [
+    "craigslist:7982426730"
+   ]
+  },
+  {
+   "id": "416-montana-turlock",
+   "title": "416 Montana Ave",
+   "address": "416 Montana Ave",
+   "city": "Turlock",
+   "price": 2000,
+   "priceMax": null,
+   "beds": 2,
+   "baths": 1.0,
+   "washerDryer": "unconfirmed",
+   "washerDryerNote": "Laundry not stated in listing",
+   "url": "https://www.zillow.com/homedetails/416-Montana-Ave-Turlock-CA-95380/455184960_zpid/",
+   "source": "Zillow",
+   "sources": [
+    {
+     "name": "Zillow",
+     "url": "https://www.zillow.com/homedetails/416-Montana-Ave-Turlock-CA-95380/455184960_zpid/"
+    }
+   ],
+   "photo": "https://photos.zillowstatic.com/fp/b97a45de493307acd2fcfe4d0c75118a-p_e.jpg",
+   "posted": "2026-10-23",
+   "firstSeen": "2026-11-14",
+   "lastSeen": "2026-11-14",
+   "status": "active",
+   "sourceIds": [
+    "trulia:455184960_ZPID",
+    "zillow:455184960"
+   ]
+  },
+  {
+   "id": "2624-porsche-turlock",
+   "title": "2624 Porsche Strasse",
+   "address": "2624 Porsche Strasse",
+   "city": "Turlock",
+   "price": 1900,
+   "priceMax": null,
+   "beds": 2,
+   "baths": 1.0,
+   "washerDryer": "hookups",
+   "washerDryerNote": "1-car garage with laundry hookups",
+   "url": "https://www.realtor.com/rentals/details/2624-Porsche-Strasse_Turlock_CA_95382_M92597-49893",
+   "source": "Realtor.com",
+   "sources": [
+    {
+     "name": "Realtor.com",
+     "url": "https://www.realtor.com/rentals/details/2624-Porsche-Strasse_Turlock_CA_95382_M92597-49893"
+    },
+    {
+     "name": "Craigslist",
+     "url": "https://www.craigslist.org/view/d/turlock-spacious-and-private-2b-1b-home/Stwo3rfM8RGFackwaaLddA"
+    }
+   ],
+   "photo": "https://images.craigslist.org/01010_h6SWmxeRMlc_0gw0co_600x450.jpg",
+   "posted": "2026-10-20",
+   "firstSeen": "2026-11-14",
+   "lastSeen": "2026-11-14",
+   "status": "active",
+   "sourceIds": [
+    "craigslist:7986898623",
+    "realtor:9259749893"
+   ]
+  },
+  {
+   "id": "1031-kenwood-turlock",
+   "title": "1031 Kenwood Ave",
+   "address": "1031 Kenwood Ave",
+   "city": "Turlock",
+   "price": 1600,
+   "priceMax": null,
+   "beds": 2,
+   "baths": 1.0,
+   "washerDryer": "unconfirmed",
+   "washerDryerNote": "Laundry not stated in listing",
+   "url": "https://www.realtor.com/rentals/details/1031-Kenwood-Ave_Turlock_CA_95380_M97734-77665",
+   "source": "Realtor.com",
+   "sources": [
+    {
+     "name": "Realtor.com",
+     "url": "https://www.realtor.com/rentals/details/1031-Kenwood-Ave_Turlock_CA_95380_M97734-77665"
+    }
+   ],
+   "photo": "https://ap.rdcpix.com/a1a7f59fce3b14142f9ade1edcd07b13l-m3941213581s.jpg",
+   "posted": "2026-10-17",
+   "firstSeen": "2026-11-14",
+   "lastSeen": "2026-11-14",
+   "status": "active",
+   "sourceIds": [
+    "realtor:9773477665"
+   ]
+  },
+  {
+   "id": "66-minaret-turlock",
+   "title": "66 N Minaret Ave",
+   "address": "66 N Minaret Ave",
+   "city": "Turlock",
+   "price": 2150,
+   "priceMax": null,
+   "beds": 2,
+   "baths": 1.0,
+   "washerDryer": "hookups",
+   "washerDryerNote": "Washer & dryer hookup in unit",
+   "url": "https://www.zillow.com/homedetails/66-N-Minaret-Ave-Turlock-CA-95380/466042135_zpid/",
+   "source": "Zillow",
+   "sources": [
+    {
+     "name": "Zillow",
+     "url": "https://www.zillow.com/homedetails/66-N-Minaret-Ave-Turlock-CA-95380/466042135_zpid/"
+    }
+   ],
+   "photo": "https://photos.zillowstatic.com/fp/b3da4020e80944ad25f6deaaef286a9b-p_e.jpg",
+   "posted": "2026-10-15",
+   "firstSeen": "2026-11-14",
+   "lastSeen": "2026-11-14",
+   "status": "active",
+   "sourceIds": [
+    "trulia:466042135_ZPID",
+    "zillow:466042135"
+   ]
+  },
+  {
+   "id": "111-clifford-turlock",
+   "title": "111 Clifford Ave #10",
+   "address": "111 Clifford Ave #10",
+   "city": "Turlock",
+   "price": 1695,
+   "priceMax": null,
+   "beds": 2,
+   "baths": 1.5,
+   "washerDryer": "unconfirmed",
+   "washerDryerNote": "Laundry not stated in listing",
+   "url": "https://www.zillow.com/homedetails/111-Clifford-Ave-APT-10-Turlock-CA-95380/464692116_zpid/",
+   "source": "Zillow",
+   "sources": [
+    {
+     "name": "Zillow",
+     "url": "https://www.zillow.com/homedetails/111-Clifford-Ave-APT-10-Turlock-CA-95380/464692116_zpid/"
+    }
+   ],
+   "photo": "https://photos.zillowstatic.com/fp/56b6893ae001ef701192a30402492736-p_e.jpg",
+   "posted": "2026-10-13",
+   "firstSeen": "2026-11-14",
+   "lastSeen": "2026-11-14",
+   "status": "active",
+   "sourceIds": [
+    "trulia:464692116_ZPID",
+    "zillow:464692116"
+   ]
+  },
+  {
+   "id": "zillow-2060883056_zpid",
+   "title": "Address not disclosed (CA 95380)",
+   "address": "Address not disclosed (CA 95380)",
+   "city": "Turlock",
+   "price": 1800,
+   "priceMax": null,
+   "beds": 2,
+   "baths": 1.5,
+   "washerDryer": "unconfirmed",
+   "washerDryerNote": "Laundry not stated in listing",
+   "url": "https://www.zillow.com/homedetails/Turlock-CA-95380/2060883056_zpid/",
+   "source": "Zillow",
+   "sources": [
+    {
+     "name": "Zillow",
+     "url": "https://www.zillow.com/homedetails/Turlock-CA-95380/2060883056_zpid/"
+    }
+   ],
+   "photo": "https://photos.zillowstatic.com/fp/12ed35b004450bebedb514f362887072-p_e.jpg",
+   "posted": "2026-10-13",
+   "firstSeen": "2026-11-14",
+   "lastSeen": "2026-11-14",
+   "status": "active",
+   "sourceIds": [
+    "trulia:2060883056_ZPID",
+    "zillow:2060883056"
+   ]
+  },
+  {
+   "id": "838-denair-turlock",
+   "title": "838 N Denair Ave #838",
+   "address": "838 N Denair Ave #838",
+   "city": "Turlock",
+   "price": 1800,
+   "priceMax": null,
+   "beds": 2,
+   "baths": 1.0,
+   "washerDryer": "unconfirmed",
+   "washerDryerNote": "Listing mentions a laundry room; hookups not stated",
+   "url": "https://www.zillow.com/homedetails/838-N-Denair-Ave-838-Turlock-CA-95380/465014867_zpid/",
+   "source": "Zillow",
+   "sources": [
+    {
+     "name": "Zillow",
+     "url": "https://www.zillow.com/homedetails/838-N-Denair-Ave-838-Turlock-CA-95380/465014867_zpid/"
+    }
+   ],
+   "photo": "https://photos.zillowstatic.com/fp/e03c31109cb2904df914569f183a8f7e-p_e.jpg",
+   "posted": "2026-10-12",
+   "firstSeen": "2026-11-14",
+   "lastSeen": "2026-11-14",
+   "status": "active",
+   "sourceIds": [
+    "trulia:465014867_ZPID",
+    "zillow:465014867"
+   ]
+  },
+  {
+   "id": "740-olive-turlock",
+   "title": "740 W. Olive",
+   "address": "740 W. Olive",
+   "city": "Turlock",
+   "price": 1600,
+   "priceMax": null,
+   "beds": 2,
+   "baths": 1.0,
+   "washerDryer": "hookups",
+   "washerDryerNote": "Craigslist laundry tag: w/d hookups",
+   "url": "https://www.craigslist.org/view/d/turlock-bedrom-bathroom-duplex-for-rent/jqLLbdcbULZ2a74Frz9o3Y",
+   "source": "Craigslist",
+   "sources": [
+    {
+     "name": "Craigslist",
+     "url": "https://www.craigslist.org/view/d/turlock-bedrom-bathroom-duplex-for-rent/jqLLbdcbULZ2a74Frz9o3Y"
+    }
+   ],
+   "photo": "https://images.craigslist.org/00S0S_8x5IaU1fhil_0BW0pi_600x450.jpg",
+   "posted": "2026-10-11",
+   "firstSeen": "2026-11-14",
+   "lastSeen": "2026-11-14",
+   "status": "active",
+   "sourceIds": [
+    "craigslist:7977640980"
+   ]
+  },
+  {
+   "id": "3155-niagra-turlock",
+   "title": "3155 Niagra St #135",
+   "address": "3155 Niagra St #135",
+   "city": "Turlock",
+   "price": 2295,
+   "priceMax": null,
+   "beds": 2,
+   "baths": 2.5,
+   "washerDryer": "unconfirmed",
+   "washerDryerNote": "Dedicated laundry area in garage; hookups not stated",
+   "url": "https://www.zillow.com/homedetails/3155-Niagra-St-APT-135-Turlock-CA-95382/463520176_zpid/",
+   "source": "Zillow",
+   "sources": [
+    {
+     "name": "Zillow",
+     "url": "https://www.zillow.com/homedetails/3155-Niagra-St-APT-135-Turlock-CA-95382/463520176_zpid/"
+    }
+   ],
+   "photo": "https://photos.zillowstatic.com/fp/b2d6b273e0ce084e323f8d12aee4cbef-p_e.jpg",
+   "posted": "2026-10-09",
+   "firstSeen": "2026-11-14",
+   "lastSeen": "2026-11-14",
+   "status": "active",
+   "sourceIds": [
+    "trulia:463520176_ZPID",
+    "zillow:463520176"
+   ]
+  },
+  {
+   "id": "3634-la-turlock",
+   "title": "3634 La Mancha Pl",
+   "address": "3634 La Mancha Pl",
+   "city": "Turlock",
+   "price": 2295,
+   "priceMax": null,
+   "beds": 2,
+   "baths": 2.5,
+   "washerDryer": "unconfirmed",
+   "washerDryerNote": "Inside laundry area; hookups not stated",
+   "url": "https://www.zillow.com/homedetails/3634-La-Mancha-Pl-Turlock-CA-95382/2059084886_zpid/",
+   "source": "Zillow",
+   "sources": [
+    {
+     "name": "Zillow",
+     "url": "https://www.zillow.com/homedetails/3634-La-Mancha-Pl-Turlock-CA-95382/2059084886_zpid/"
+    }
+   ],
+   "photo": "https://photos.zillowstatic.com/fp/11297bc834544c251512e032067d427b-p_e.jpg",
+   "posted": "2026-10-08",
+   "firstSeen": "2026-11-14",
+   "lastSeen": "2026-11-14",
+   "status": "active",
+   "sourceIds": [
+    "trulia:2059084886_ZPID",
+    "zillow:2059084886"
+   ]
+  },
+  {
+   "id": "670-grant-turlock",
+   "title": "670 Grant St",
+   "address": "670 Grant St",
+   "city": "Turlock",
+   "price": 1795,
+   "priceMax": null,
+   "beds": 2,
+   "baths": 1.0,
+   "washerDryer": "unconfirmed",
+   "washerDryerNote": "Inside laundry room; hookups not stated",
+   "url": "https://www.zillow.com/homedetails/670-Grant-St-Turlock-CA-95380/16033845_zpid/",
+   "source": "Zillow",
+   "sources": [
+    {
+     "name": "Zillow",
+     "url": "https://www.zillow.com/homedetails/670-Grant-St-Turlock-CA-95380/16033845_zpid/"
+    }
+   ],
+   "photo": "https://photos.zillowstatic.com/fp/3052d7d70a1a71c881df5febb3557969-p_e.jpg",
+   "posted": "2026-10-08",
+   "firstSeen": "2026-11-14",
+   "lastSeen": "2026-11-14",
+   "status": "active",
+   "sourceIds": [
+    "trulia:16033845_ZPID",
+    "zillow:16033845"
+   ]
+  },
+  {
+   "id": "213-starr-turlock",
+   "title": "213 Starr Ave",
+   "address": "213 Starr Ave",
+   "city": "Turlock",
+   "price": 2000,
+   "priceMax": null,
+   "beds": 2,
+   "baths": 2.0,
+   "washerDryer": "hookups",
+   "washerDryerNote": "Craigslist laundry tag: w/d hookups",
+   "url": "https://www.craigslist.org/view/d/turlock-213-starr-ave/rKa7vemijW29ov1ckaCPkH",
+   "source": "Craigslist",
+   "sources": [
+    {
+     "name": "Craigslist",
+     "url": "https://www.craigslist.org/view/d/turlock-213-starr-ave/rKa7vemijW29ov1ckaCPkH"
+    }
+   ],
+   "photo": "https://images.craigslist.org/00D0D_i2rlaXY5TF8_0t20CI_600x450.jpg",
+   "posted": "2026-10-07",
+   "firstSeen": "2026-11-14",
+   "lastSeen": "2026-11-14",
+   "status": "active",
+   "sourceIds": [
+    "craigslist:7979670930"
+   ]
+  },
+  {
+   "id": "931-mitchell-turlock",
+   "title": "931 N Mitchell Ave #A",
+   "address": "931 N Mitchell Ave #A",
+   "city": "Turlock",
+   "price": 1950,
+   "priceMax": null,
+   "beds": 2,
+   "baths": 2.0,
+   "washerDryer": "unconfirmed",
+   "washerDryerNote": "Laundry not stated in listing",
+   "url": "https://www.zillow.com/homedetails/931-N-Mitchell-Ave-APT-A-Turlock-CA-95380/2100106329_zpid/",
+   "source": "Zillow",
+   "sources": [
+    {
+     "name": "Zillow",
+     "url": "https://www.zillow.com/homedetails/931-N-Mitchell-Ave-APT-A-Turlock-CA-95380/2100106329_zpid/"
+    }
+   ],
+   "photo": "https://photos.zillowstatic.com/fp/0055d824f3c6bc8c427a7d7a8694b984-p_e.jpg",
+   "posted": "2026-10-06",
+   "firstSeen": "2026-11-14",
+   "lastSeen": "2026-11-14",
+   "status": "active",
+   "sourceIds": [
+    "trulia:2100106329_ZPID",
+    "zillow:2100106329"
+   ]
+  },
+  {
+   "id": "3281-spring-turlock",
+   "title": "3281 Spring Crest Dr",
+   "address": "3281 Spring Crest Dr",
+   "city": "Turlock",
+   "price": 2200,
+   "priceMax": null,
+   "beds": 2,
+   "baths": 2.0,
+   "washerDryer": "unconfirmed",
+   "washerDryerNote": "Laundry not stated in listing",
+   "url": "https://www.zillow.com/homedetails/3281-Spring-Crest-Dr-Turlock-CA-95382/82398379_zpid/",
+   "source": "Zillow",
+   "sources": [
+    {
+     "name": "Zillow",
+     "url": "https://www.zillow.com/homedetails/3281-Spring-Crest-Dr-Turlock-CA-95382/82398379_zpid/"
+    }
+   ],
+   "photo": "https://photos.zillowstatic.com/fp/7bf0d2eace31c5dd5025b92df736422d-p_e.jpg",
+   "posted": "2026-10-06",
+   "firstSeen": "2026-11-14",
+   "lastSeen": "2026-11-14",
+   "status": "active",
+   "sourceIds": [
+    "trulia:82398379_ZPID",
+    "zillow:82398379"
+   ]
+  },
+  {
+   "id": "zillow-2053191557_zpid",
+   "title": "Address not disclosed (CA 95382)",
+   "address": "Address not disclosed (CA 95382)",
+   "city": "Turlock",
+   "price": 2300,
+   "priceMax": null,
+   "beds": 2,
+   "baths": 2.0,
+   "washerDryer": "unconfirmed",
+   "washerDryerNote": "Laundry not stated in listing",
+   "url": "https://www.zillow.com/homedetails/Turlock-CA-95382/2053191557_zpid/",
+   "source": "Zillow",
+   "sources": [
+    {
+     "name": "Zillow",
+     "url": "https://www.zillow.com/homedetails/Turlock-CA-95382/2053191557_zpid/"
+    }
+   ],
+   "photo": "https://photos.zillowstatic.com/fp/418f81f15138f2fd4585fae3e2c0f162-p_e.jpg",
+   "posted": "2026-10-01",
+   "firstSeen": "2026-11-14",
+   "lastSeen": "2026-11-14",
+   "status": "active",
+   "sourceIds": [
+    "trulia:2053191557_ZPID",
+    "zillow:2053191557"
+   ]
+  },
+  {
+   "id": "1062-geer-turlock",
+   "title": "1062 Geer Rd",
+   "address": "1062 Geer Rd",
+   "city": "Turlock",
+   "price": 1650,
+   "priceMax": null,
+   "beds": 2,
+   "baths": 1.0,
+   "washerDryer": "hookups",
+   "washerDryerNote": "Washer/dryer hookups available",
+   "url": "https://www.zillow.com/homedetails/1062-Geer-Rd-Turlock-CA-95380/463808248_zpid/",
+   "source": "Zillow",
+   "sources": [
+    {
+     "name": "Zillow",
+     "url": "https://www.zillow.com/homedetails/1062-Geer-Rd-Turlock-CA-95380/463808248_zpid/"
+    }
+   ],
+   "photo": "https://photos.zillowstatic.com/fp/e9718a6663c3a0242feddfea36d09501-p_e.jpg",
+   "posted": "2026-09-30",
+   "firstSeen": "2026-11-14",
+   "lastSeen": "2026-11-14",
+   "status": "active",
+   "sourceIds": [
+    "trulia:463808248_ZPID",
+    "zillow:463808248"
+   ]
+  },
+  {
+   "id": "3074-andre-turlock",
+   "title": "3074 Andre Ln",
+   "address": "3074 Andre Ln",
+   "city": "Turlock",
+   "price": 1850,
+   "priceMax": null,
+   "beds": 2,
+   "baths": 2.5,
+   "washerDryer": "in-unit",
+   "washerDryerNote": "Zillow and Realtor.com list washer/dryer",
+   "url": "https://www.zillow.com/homedetails/3074-Andre-Ln-Turlock-CA-95382/16046777_zpid/",
+   "source": "Zillow",
+   "sources": [
+    {
+     "name": "Zillow",
+     "url": "https://www.zillow.com/homedetails/3074-Andre-Ln-Turlock-CA-95382/16046777_zpid/"
+    },
+    {
+     "name": "Realtor.com",
+     "url": "https://www.realtor.com/rentals/details/3074-Andre-Ln_Turlock_CA_95382_M21259-76977"
+    }
+   ],
+   "photo": "https://photos.zillowstatic.com/fp/feb4a0d6528abac9504cd59768a39246-p_e.jpg",
+   "posted": "2026-09-28",
+   "firstSeen": "2026-11-14",
+   "lastSeen": "2026-11-14",
+   "status": "active",
+   "sourceIds": [
+    "realtor:2125976977",
+    "trulia:16046777_ZPID",
+    "zillow:16046777"
+   ]
+  },
+  {
+   "id": "961-wakefield-turlock",
+   "title": "961 Wakefield Rd",
+   "address": "961 Wakefield Rd",
+   "city": "Turlock",
+   "price": 1750,
+   "priceMax": null,
+   "beds": 2,
+   "baths": 1.5,
+   "washerDryer": "unconfirmed",
+   "washerDryerNote": "Laundry not stated in listing",
+   "url": "https://www.zillow.com/homedetails/961-Wakefield-Rd-Turlock-CA-95380/2059059023_zpid/",
+   "source": "Zillow",
+   "sources": [
+    {
+     "name": "Zillow",
+     "url": "https://www.zillow.com/homedetails/961-Wakefield-Rd-Turlock-CA-95380/2059059023_zpid/"
+    },
+    {
+     "name": "Realtor.com",
+     "url": "https://www.realtor.com/rentals/details/961-Wakefield-Rd_Turlock_CA_95380_M26537-05705"
+    }
+   ],
+   "photo": "https://photos.zillowstatic.com/fp/807c367e7ba29cc5f30200d510c557a5-p_e.jpg",
+   "posted": "2026-09-22",
+   "firstSeen": "2026-11-14",
+   "lastSeen": "2026-11-14",
+   "status": "active",
+   "sourceIds": [
+    "realtor:2653705705",
+    "trulia:2059059023_ZPID",
+    "zillow:2059059023"
+   ]
+  },
+  {
+   "id": "1808-colorado-turlock",
+   "title": "1808 Colorado Ave #2",
+   "address": "1808 Colorado Ave #2",
+   "city": "Turlock",
+   "price": 1850,
+   "priceMax": null,
+   "beds": 2,
+   "baths": 1.5,
+   "washerDryer": "hookups",
+   "washerDryerNote": "Inside laundry room connection",
+   "url": "https://www.zillow.com/homedetails/1808-Colorado-Ave-APT-2-Turlock-CA-95382/2094226271_zpid/",
+   "source": "Zillow",
+   "sources": [
+    {
+     "name": "Zillow",
+     "url": "https://www.zillow.com/homedetails/1808-Colorado-Ave-APT-2-Turlock-CA-95382/2094226271_zpid/"
+    }
+   ],
+   "photo": "https://photos.zillowstatic.com/fp/ffbf98fc56b6132155784e7f215cd2d6-p_e.jpg",
+   "posted": "2026-09-16",
+   "firstSeen": "2026-11-14",
+   "lastSeen": "2026-11-14",
+   "status": "active",
+   "sourceIds": [
+    "trulia:2094226271_ZPID",
+    "zillow:2094226271"
+   ]
+  },
+  {
+   "id": "1109-alpha-turlock",
+   "title": "1109 Alpha Rd #507",
+   "address": "1109 Alpha Rd #507",
+   "city": "Turlock",
+   "price": 1700,
+   "priceMax": null,
+   "beds": 2,
+   "baths": 1.0,
+   "washerDryer": "unconfirmed",
+   "washerDryerNote": "Laundry not stated in listing",
+   "url": "https://www.zillow.com/homedetails/1109-Alpha-Rd-507-Turlock-CA-95380/465254192_zpid/",
+   "source": "Zillow",
+   "sources": [
+    {
+     "name": "Zillow",
+     "url": "https://www.zillow.com/homedetails/1109-Alpha-Rd-507-Turlock-CA-95380/465254192_zpid/"
+    }
+   ],
+   "photo": "https://photos.zillowstatic.com/fp/b4d72cf7d25b3f3f8671fdba703b5a80-p_e.jpg",
+   "posted": "2026-09-14",
+   "firstSeen": "2026-11-14",
+   "lastSeen": "2026-11-14",
+   "status": "active",
+   "sourceIds": [
+    "trulia:465254192_ZPID",
+    "zillow:465254192"
+   ]
+  },
+  {
+   "id": "1190-kenwood-turlock",
+   "title": "Charming Townhouse in Turlock · 1190 Kenwood Ave #5",
+   "address": "1190 Kenwood Ave #5",
+   "city": "Turlock",
+   "price": 1525,
+   "priceMax": null,
+   "beds": 2,
+   "baths": 2.0,
+   "washerDryer": "unconfirmed",
+   "washerDryerNote": "Laundry not stated in listing",
+   "url": "https://www.zillow.com/apartments/turlock-ca/charming-townhouse-in-turlock/5Xtm5t/",
+   "source": "Zillow",
+   "sources": [
+    {
+     "name": "Zillow",
+     "url": "https://www.zillow.com/apartments/turlock-ca/charming-townhouse-in-turlock/5Xtm5t/"
+    },
+    {
+     "name": "Realtor.com",
+     "url": "https://www.realtor.com/rentals/details/1190-Kenwood-Ave_Turlock_CA_95380_M12794-28600"
+    }
+   ],
+   "photo": "https://photos.zillowstatic.com/fp/9a4a0cc32e67fb3d6be2af580d354421-p_e.jpg",
+   "posted": "2026-09-14",
+   "firstSeen": "2026-11-14",
+   "lastSeen": "2026-11-14",
+   "status": "active",
+   "sourceIds": [
+    "realtor:1279428600",
+    "trulia:1002458507_BUILDING_ID",
+    "zillow:2102252665"
+   ]
+  },
+  {
+   "id": "237-starr-turlock",
+   "title": "237 Starr Ave",
+   "address": "237 Starr Ave",
+   "city": "Turlock",
+   "price": 1750,
+   "priceMax": null,
+   "beds": 2,
+   "baths": 1.5,
+   "washerDryer": "hookups",
+   "washerDryerNote": "Indoor laundry hookups",
+   "url": "https://www.zillow.com/homedetails/237-Starr-Ave-Turlock-CA-95380/2116453545_zpid/",
+   "source": "Zillow",
+   "sources": [
+    {
+     "name": "Zillow",
+     "url": "https://www.zillow.com/homedetails/237-Starr-Ave-Turlock-CA-95380/2116453545_zpid/"
+    }
+   ],
+   "photo": "https://photos.zillowstatic.com/fp/e143e8c8c98f3a0774c56372fda2fbb8-p_e.jpg",
+   "posted": "2026-08-18",
+   "firstSeen": "2026-11-14",
+   "lastSeen": "2026-11-14",
+   "status": "active",
+   "sourceIds": [
+    "trulia:2116453545_ZPID",
+    "zillow:2116453545"
+   ]
+  },
+  {
+   "id": "277-alaska-turlock",
+   "title": "277 Alaska St",
+   "address": "277 Alaska St",
+   "city": "Turlock",
+   "price": 1750,
+   "priceMax": null,
+   "beds": 2,
+   "baths": 1.0,
+   "washerDryer": "hookups",
+   "washerDryerNote": "Washer/dryer hookups",
+   "url": "https://www.zillow.com/homedetails/277-Alaska-St-Turlock-CA-95380/345922972_zpid/",
+   "source": "Zillow",
+   "sources": [
+    {
+     "name": "Zillow",
+     "url": "https://www.zillow.com/homedetails/277-Alaska-St-Turlock-CA-95380/345922972_zpid/"
+    }
+   ],
+   "photo": "https://photos.zillowstatic.com/fp/c07d1e1e64299dc3e345903fbd4e6b89-p_e.jpg",
+   "posted": "2026-08-04",
+   "firstSeen": "2026-11-14",
+   "lastSeen": "2026-11-14",
+   "status": "active",
+   "sourceIds": [
+    "trulia:345922972_ZPID",
+    "zillow:345922972"
+   ]
+  },
+  {
+   "id": "275-alaska-turlock",
+   "title": "275 Alaska St",
+   "address": "275 Alaska St",
+   "city": "Turlock",
+   "price": 1750,
+   "priceMax": null,
+   "beds": 2,
+   "baths": 1.0,
+   "washerDryer": "hookups",
+   "washerDryerNote": "Washer/dryer hookups",
+   "url": "https://www.zillow.com/homedetails/275-Alaska-St-Turlock-CA-95380/300255632_zpid/",
+   "source": "Zillow",
+   "sources": [
+    {
+     "name": "Zillow",
+     "url": "https://www.zillow.com/homedetails/275-Alaska-St-Turlock-CA-95380/300255632_zpid/"
+    }
+   ],
+   "photo": "https://photos.zillowstatic.com/fp/d8ac421562effad93036e9a528f8d65f-p_e.jpg",
+   "posted": "2026-08-04",
+   "firstSeen": "2026-11-14",
+   "lastSeen": "2026-11-14",
+   "status": "active",
+   "sourceIds": [
+    "trulia:300255632_ZPID",
+    "zillow:300255632"
+   ]
+  },
+  {
+   "id": "1101-park-turlock",
+   "title": "1101 Park St #70c236766",
+   "address": "1101 Park St #70c236766",
+   "city": "Turlock",
+   "price": 1650,
+   "priceMax": null,
+   "beds": 2,
+   "baths": 1.0,
+   "washerDryer": "unconfirmed",
+   "washerDryerNote": "Laundry not stated in listing",
+   "url": "https://www.zillow.com/apartments/turlock-ca/1101-park-street-apartments/CkBdGs/",
+   "source": "Zillow",
+   "sources": [
+    {
+     "name": "Zillow",
+     "url": "https://www.zillow.com/apartments/turlock-ca/1101-park-street-apartments/CkBdGs/"
+    }
+   ],
+   "photo": "https://photos.zillowstatic.com/fp/69462debf6b8e23d2bbeb87a663313e7-p_e.jpg",
+   "posted": "2025-08-01",
+   "firstSeen": "2026-11-14",
+   "lastSeen": "2026-11-14",
+   "status": "active",
+   "sourceIds": [
+    "trulia:2750826330_BUILDING_ID",
+    "zillow:455613453"
+   ]
+  },
+  {
+   "id": "3025-christoffersen-turlock",
+   "title": "Sierra Oaks · 3025 W Christoffersen Pkwy",
+   "address": "3025 W Christoffersen Pkwy",
+   "city": "Turlock",
+   "price": 1937,
+   "priceMax": 1991,
+   "beds": 2,
+   "baths": 2.0,
+   "washerDryer": "in-unit",
+   "washerDryerNote": "Zillow/Trulia amenities list washer and dryer",
+   "url": "https://www.zillow.com/apartments/turlock-ca/sierra-oaks/5Xt4CB/",
+   "source": "Zillow",
+   "sources": [
+    {
+     "name": "Zillow",
+     "url": "https://www.zillow.com/apartments/turlock-ca/sierra-oaks/5Xt4CB/"
+    }
+   ],
+   "photo": "https://photos.zillowstatic.com/fp/4168b9bdc4c70188a0f82f9b4cf0d69e-p_e.jpg",
+   "posted": null,
+   "firstSeen": "2026-11-14",
+   "lastSeen": "2026-11-14",
+   "status": "active",
+   "sourceIds": [
+    "trulia:1002374731_BUILDING_ID",
+    "zillow:37.52995--120.88278"
+   ]
+  },
+  {
+   "id": "351-monte-turlock",
+   "title": "Briarwood Apartments · 351 E Monte Vista Ave",
+   "address": "351 E Monte Vista Ave",
+   "city": "Turlock",
+   "price": 1685,
+   "priceMax": 1835,
+   "beds": 2,
+   "baths": 1.0,
+   "washerDryer": "hookups",
+   "washerDryerNote": "Washer/dryer connections in select apartments; also clothes-care center",
+   "url": "https://www.zillow.com/apartments/turlock-ca/briarwood-apartments/5XjKss/",
+   "source": "Zillow",
+   "sources": [
+    {
+     "name": "Zillow",
+     "url": "https://www.zillow.com/apartments/turlock-ca/briarwood-apartments/5XjKss/"
+    }
+   ],
+   "photo": "https://photos.zillowstatic.com/fp/2916c62615a3930e78f657ec12f4b068-p_e.jpg",
+   "posted": null,
+   "firstSeen": "2026-11-14",
+   "lastSeen": "2026-11-14",
+   "status": "active",
+   "sourceIds": [
+    "trulia:1001466403_BUILDING_ID",
+    "zillow:37.522167--120.84487"
+   ]
+  },
+  {
+   "id": "1100-pedras-turlock",
+   "title": "Park Knolls Apartments · 1100 Pedras Rd",
+   "address": "1100 Pedras Rd",
+   "city": "Turlock",
+   "price": 1642,
+   "priceMax": 1897,
+   "beds": 2,
+   "baths": 2.0,
+   "washerDryer": "unconfirmed",
+   "washerDryerNote": "Laundry not stated in listing",
+   "url": "https://www.zillow.com/apartments/turlock-ca/park-knolls-apartments/5XjLRT/",
+   "source": "Zillow",
+   "sources": [
+    {
+     "name": "Zillow",
+     "url": "https://www.zillow.com/apartments/turlock-ca/park-knolls-apartments/5XjLRT/"
+    }
+   ],
+   "photo": "https://photos.zillowstatic.com/fp/d8a5964fb4f8bb8dba72f92f598c71ac-p_e.jpg",
+   "posted": null,
+   "firstSeen": "2026-11-14",
+   "lastSeen": "2026-11-14",
+   "status": "active",
+   "sourceIds": [
+    "trulia:1001467756_BUILDING_ID",
+    "zillow:37.51071--120.86024"
+   ]
+  },
+  {
+   "id": "1525-monte-turlock",
+   "title": "Monte Vista Apartments · 1525 W Monte Vista Ave",
+   "address": "1525 W Monte Vista Ave",
+   "city": "Turlock",
+   "price": 2085,
+   "priceMax": 2240,
+   "beds": 2,
+   "baths": null,
+   "washerDryer": "in-unit",
+   "washerDryerNote": "In-home washer & dryer",
+   "url": "https://www.zillow.com/apartments/turlock-ca/monte-vista-apartments/CvcSXG/",
+   "source": "Zillow",
+   "sources": [
+    {
+     "name": "Zillow",
+     "url": "https://www.zillow.com/apartments/turlock-ca/monte-vista-apartments/CvcSXG/"
+    }
+   ],
+   "photo": "https://photos.zillowstatic.com/fp/356c73e8b8e3d96127a925bd890f12ce-p_e.jpg",
+   "posted": null,
+   "firstSeen": "2026-11-14",
+   "lastSeen": "2026-11-14",
+   "status": "active",
+   "sourceIds": [
+    "trulia:2799512063_BUILDING_ID",
+    "zillow:37.522858--120.86555"
+   ]
+  },
+  {
+   "id": "90-pedras-turlock",
+   "title": "90 Pedras Rd",
+   "address": "90 Pedras Rd",
+   "city": "Turlock",
+   "price": 1650,
+   "priceMax": null,
+   "beds": 2,
+   "baths": 1.0,
+   "washerDryer": "in-unit",
+   "washerDryerNote": "All appliances including washer and dryer",
+   "url": "https://www.realtor.com/rentals/details/90-Pedras-Rd_Turlock_CA_95382_M91009-96604",
+   "source": "Realtor.com",
+   "sources": [
+    {
+     "name": "Realtor.com",
+     "url": "https://www.realtor.com/rentals/details/90-Pedras-Rd_Turlock_CA_95382_M91009-96604"
+    }
+   ],
+   "photo": "https://ap.rdcpix.com/57f5ceffa8f0aea00b6353a3582cd9a2l-m1100645650s.jpg",
+   "posted": null,
+   "firstSeen": "2026-11-14",
+   "lastSeen": "2026-11-14",
+   "status": "active",
+   "sourceIds": [
+    "realtor:9100996604"
+   ]
+  }
+ ]
+}

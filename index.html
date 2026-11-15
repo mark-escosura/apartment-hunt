@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Apartment Hunt</title><meta name="description" content="2-bedroom rentals in Turlock and Patterson, CA">
+<meta name="theme-color" content="#0f766e">
+<meta name="apple-mobile-web-app-capable" content="yes"><meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><meta name="apple-mobile-web-app-title" content="Apts">
+<link rel="manifest" href="manifest.json"><link rel="icon" href="icon.svg"><link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+<style>
+:root{--g:#0f766e;--bg:#f6f7f8;--t:#1f2933;--m:#6b7280;--line:#e5e7eb}
+*{box-sizing:border-box}body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text",system-ui,sans-serif;background:var(--bg);color:var(--t);-webkit-text-size-adjust:100%}
+header{position:sticky;top:0;z-index:2;background:var(--g);color:#fff;padding:calc(env(safe-area-inset-top) + 10px) 14px 10px}
+header h1{margin:0;font-size:20px;letter-spacing:.2px}header p{margin:2px 0 0;font-size:12px;opacity:.85}
+.bar{position:sticky;top:calc(env(safe-area-inset-top) + 58px);z-index:1;background:#fff;border-bottom:1px solid var(--line);padding:8px 12px;display:grid;gap:8px}
+.seg{display:flex;background:#eef2f2;border-radius:10px;padding:3px}.seg button{flex:1;border:0;background:none;padding:8px 4px;font:600 14px inherit;border-radius:8px;color:var(--m)}
+.seg button.on{background:#fff;color:var(--g);box-shadow:0 1px 2px #0002}
+.row{display:flex;gap:8px;align-items:center}.row select{flex:1;min-width:0;font-size:16px;padding:7px 8px;border:1px solid var(--line);border-radius:8px;background:#fff;color:var(--t)}
+.row span{color:var(--m);font-size:13px}
+main{padding:12px;display:grid;gap:12px;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));max-width:1100px;margin:0 auto;padding-bottom:calc(env(safe-area-inset-bottom) + 24px)}
+.card{background:#fff;border-radius:14px;overflow:hidden;box-shadow:0 1px 3px #0001,0 1px 2px #0001;text-decoration:none;color:inherit;display:flex;flex-direction:column}
+.ph{position:relative;aspect-ratio:16/10;background:#dfe7e6 center/cover no-repeat}
+.ph img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block;z-index:1}.new,.gone{z-index:2}
+.ph .ph0{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;color:#7f9c99;font-size:13px;flex-direction:column;gap:4px}
+.new{position:absolute;top:8px;left:8px;background:#dc2626;color:#fff;font:700 11px inherit;padding:3px 7px;border-radius:6px}
+.gone{position:absolute;top:8px;right:8px;background:#111c;color:#fff;font:700 11px inherit;padding:3px 7px;border-radius:6px}
+.b{padding:10px 12px 12px;display:grid;gap:4px}
+.price{font-size:20px;font-weight:700}.price small{font-size:13px;font-weight:500;color:var(--m)}
+.meta{font-size:14px;color:var(--m)}.ttl{font-size:14px;font-weight:600;line-height:1.3}
+.tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:4px}.tag{font:600 12px inherit;padding:3px 8px;border-radius:999px}
+.wd-in-unit{background:#dcfce7;color:#166534}.wd-hookups{background:#dbeafe;color:#1e40af}.wd-unconfirmed{background:#f3f4f6;color:#4b5563}
+.city{background:#ecfdf5;color:var(--g)}.src{font-size:12px;color:var(--m)}.src a{color:var(--g);font-weight:600}
+.note{font-size:12px;color:var(--m)}
+.empty{grid-column:1/-1;text-align:center;color:var(--m);padding:40px 0}
+footer{text-align:center;color:var(--m);font-size:11px;padding:0 16px 24px}
+</style></head><body>
+<header><h1>Apartment Hunt</h1><p id="sum">Loading…</p></header>
+<div class="bar">
+ <div class="seg" id="city"><button data-v="" class="on">All</button><button data-v="Turlock">Turlock</button><button data-v="Patterson">Patterson</button></div>
+ <div class="row"><select id="min" aria-label="Min price"></select><span>to</span><select id="max" aria-label="Max price"></select></div>
+ <div class="row"><select id="wd" aria-label="Washer/dryer"><option value="">W/D: any</option><option value="in-unit">In-unit W/D</option><option value="hookups">Hookups</option><option value="in-unit,hookups">In-unit or hookups</option><option value="unconfirmed">Unconfirmed</option></select>
+ <select id="sort" aria-label="Sort"><option value="new">Newest first</option><option value="pa">Price: low → high</option><option value="pd">Price: high → low</option></select></div>
+</div>
+<main id="list"></main>
+<footer>Public listings from Zillow, Realtor.com and Craigslist. Prices and availability can change — confirm on the listing. <span id="upd"></span></footer>
+<script>
+const $ = id => document.getElementById(id);
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const pt = d => new Intl.DateTimeFormat('en-CA',{timeZone:'America/Los_Angeles'}).format(d);
+const today = pt(new Date()), money = n => '$' + Number(n).toLocaleString('en-US');
+const WD = {'in-unit':'W/D in unit','hookups':'W/D hookups','unconfirmed':'W/D unconfirmed'};
+const st = JSON.parse(localStorage.getItem('ah-filters') || '{}');
+let data = {listings: []};
+const steps = []; for (let p = 1500; p <= 2300; p += 100) steps.push(p);
+$('min').innerHTML = steps.slice(0,-1).map(p => `<option value="${p}">Min ${money(p)}</option>`).join('');
+$('max').innerHTML = steps.slice(1).map(p => `<option value="${p}">Max ${money(p)}</option>`).join('');
+$('min').value = st.min || 1500; $('max').value = st.max || 2300; $('wd').value = st.wd || ''; $('sort').value = st.sort || 'new';
+let city = st.city || ''; document.querySelectorAll('#city button').forEach(b => b.classList.toggle('on', b.dataset.v === city));
+const ph = l => l.photo ? `<img loading="lazy" referrerpolicy="no-referrer" src="${esc(l.photo)}" alt="" onerror="this.remove()">` : '';
+const card = l => {
+  const price = l.priceMax ? `${money(l.price)}–${money(l.priceMax)}` : money(l.price);
+  const baths = l.baths != null ? `${l.baths} ba` : 'ba n/a';
+  const more = (l.sources || []).filter(s => s.url !== l.url).map(s => `<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.name)}</a>`).join(' · ');
+  return `<article class="card"><a href="${esc(l.url)}" target="_blank" rel="noopener" style="color:inherit;text-decoration:none">
+  <div class="ph"><div class="ph0"><svg width="40" height="40" viewBox="0 0 512 512"><path d="M256 104 88 244h44v164h96V308h56v100h96V244h44z" fill="#9fb8b5"/></svg>No photo</div>${ph(l)}
+  ${l.firstSeen === today ? '<span class="new">NEW</span>' : ''}${l.status === 'gone' ? '<span class="gone">GONE</span>' : ''}</div>
+  <div class="b"><div class="price">${price}<small> /mo</small></div><div class="meta">${l.beds} bd · ${baths}</div>
+  <div class="ttl">${esc(l.title || l.address || 'Listing')}</div>
+  <div class="tags"><span class="tag wd-${esc(l.washerDryer)}">${WD[l.washerDryer] || 'W/D ?'}</span><span class="tag city">${esc(l.city)}</span></div>
+  ${l.washerDryerNote ? `<div class="note">${esc(l.washerDryerNote)}</div>` : ''}</div></a>
+  <div class="b" style="padding-top:0"><div class="src">View on <a href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.source)}</a>${more ? ' · also ' + more : ''} · found ${esc(l.firstSeen)}</div></div></article>`;
+};
+function render() {
+  const min = +$('min').value, max = +$('max').value, wd = $('wd').value, sort = $('sort').value;
+  localStorage.setItem('ah-filters', JSON.stringify({city, min, max, wd, sort}));
+  let ls = data.listings.filter(l => l.status !== 'gone' && (!city || l.city === city) && (l.priceMax || l.price) >= min && l.price <= max && (!wd || wd.split(',').includes(l.washerDryer)));
+  ls.sort(sort === 'pa' ? (a,b) => a.price - b.price : sort === 'pd' ? (a,b) => b.price - a.price
+    : (a,b) => (b.firstSeen + (b.posted||'')).localeCompare(a.firstSeen + (a.posted||'')));
+  const nNew = ls.filter(l => l.firstSeen === today).length;
+  $('sum').textContent = `${ls.length} of ${data.listings.filter(l => l.status !== 'gone').length} active · 2 bd · ${money(min)}–${money(max)}${nNew ? ` · ${nNew} new today` : ''}`;
+  $('list').innerHTML = ls.length ? ls.map(card).join('') : '<div class="empty">No listings match these filters.</div>';
+}
+document.querySelectorAll('#city button').forEach(b => b.onclick = () => { city = b.dataset.v; document.querySelectorAll('#city button').forEach(x => x.classList.toggle('on', x === b)); render(); });
+['min','max','wd','sort'].forEach(id => $(id).onchange = () => { if (+$('min').value >= +$('max').value) { id === 'min' ? $('max').value = Math.min(2300, +$('min').value + 100) : $('min').value = +$('max').value - 100; } render(); });
+fetch('listings.json', {cache: 'no-cache'}).then(r => r.json()).then(d => { data = d; $('upd').textContent = 'Updated ' + d.updated + '.'; render(); })
+  .catch(() => { $('sum').textContent = 'Could not load listings.'; });
+if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js');
+</script>
+</body></html>
