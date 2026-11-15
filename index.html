@@ -46,6 +46,7 @@ header{background:linear-gradient(135deg,#ff6b35,#f7931e);color:#fff;padding:cal
 .note{font-size:12px;color:#a87a5a;margin-top:8px;line-height:1.35}
 .btn{display:block;margin-top:12px;text-align:center;background:#ff6b35;color:#fff;font-weight:800;padding:11px;border-radius:14px;text-decoration:none}
 .btn.alt{background:#fff;color:#ff6b35;border:2px solid #ffc9a8;padding:9px;margin-top:8px}
+.xtra{font-size:12px;font-weight:700;color:#a87a5a;text-align:center;margin-top:6px}.xtra a{color:#ff6b35;margin:0 3px}
 .fd{font-size:11px;color:#b89478;margin-top:8px;text-align:center}
 .empty{text-align:center;color:#a87a5a;font-weight:700;padding:40px 0}
 footer{text-align:center;color:#a87a5a;font-size:11px;padding:4px 20px 10px;line-height:1.4}
@@ -86,7 +87,9 @@ const isNew = l => l.firstSeen === today;
 const btns = l => {
   const seen = new Set(), out = [];
   [{name: l.source, url: l.url}, ...(l.sources || [])].forEach(s => { if (s && s.url && !seen.has(s.url)) { seen.add(s.url); out.push(s); } });
-  return out.map((s, i) => `<a class="btn${i ? ' alt' : ''}" href="${esc(s.url)}" target="_blank" rel="noopener">See on ${esc(s.name || 'listing')} →</a>`).join('');
+  const groups = []; out.forEach(s => { const g = groups.find(g => g.name === (s.name || 'listing')); g ? g.urls.push(s.url) : groups.push({name: s.name || 'listing', urls: [s.url]}); });
+  return groups.map((g, i) => `<a class="btn${i ? ' alt' : ''}" href="${esc(g.urls[0])}" target="_blank" rel="noopener">See on ${esc(g.name)} →</a>` +
+    (g.urls.length > 1 ? `<div class="xtra">more ${esc(g.name)} posts: ${g.urls.slice(1).map((u, j) => `<a href="${esc(u)}" target="_blank" rel="noopener">#${j + 2}</a>`).join(' ')}</div>` : '')).join('');
 };
 const card = l => {
   const price = l.priceMax && l.priceMax !== l.price ? `${money(l.price)}–${money(l.priceMax)}` : money(l.price);
