@@ -2,87 +2,132 @@
 <html lang="en"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>Apartment Hunt</title><meta name="description" content="2-bedroom rentals in Turlock and Patterson, CA">
-<meta name="theme-color" content="#0f766e">
+<meta name="theme-color" content="#ff6b35">
 <meta name="apple-mobile-web-app-capable" content="yes"><meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><meta name="apple-mobile-web-app-title" content="Apts">
 <link rel="manifest" href="manifest.json"><link rel="icon" href="icon.svg"><link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
 <style>
-:root{--g:#0f766e;--bg:#f6f7f8;--t:#1f2933;--m:#6b7280;--line:#e5e7eb}
-*{box-sizing:border-box}body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text",system-ui,sans-serif;background:var(--bg);color:var(--t);-webkit-text-size-adjust:100%}
-header{position:sticky;top:0;z-index:2;background:var(--g);color:#fff;padding:calc(env(safe-area-inset-top) + 10px) 14px 10px}
-header h1{margin:0;font-size:20px;letter-spacing:.2px}header p{margin:2px 0 0;font-size:12px;opacity:.85}
-.bar{position:sticky;top:calc(env(safe-area-inset-top) + 58px);z-index:1;background:#fff;border-bottom:1px solid var(--line);padding:8px 12px;display:grid;gap:8px}
-.seg{display:flex;background:#eef2f2;border-radius:10px;padding:3px}.seg button{flex:1;border:0;background:none;padding:8px 4px;font:600 14px inherit;border-radius:8px;color:var(--m)}
-.seg button.on{background:#fff;color:var(--g);box-shadow:0 1px 2px #0002}
-.row{display:flex;gap:8px;align-items:center}.row select{flex:1;min-width:0;font-size:16px;padding:7px 8px;border:1px solid var(--line);border-radius:8px;background:#fff;color:var(--t)}
-.row span{color:var(--m);font-size:13px}
-main{padding:12px;display:grid;gap:12px;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));max-width:1100px;margin:0 auto;padding-bottom:calc(env(safe-area-inset-bottom) + 24px)}
-.card{background:#fff;border-radius:14px;overflow:hidden;box-shadow:0 1px 3px #0001,0 1px 2px #0001;text-decoration:none;color:inherit;display:flex;flex-direction:column}
-.ph{position:relative;aspect-ratio:16/10;background:#dfe7e6 center/cover no-repeat}
-.ph img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block;z-index:1}.new,.gone{z-index:2}
-.ph .ph0{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;color:#7f9c99;font-size:13px;flex-direction:column;gap:4px}
-.new{position:absolute;top:8px;left:8px;background:#dc2626;color:#fff;font:700 11px inherit;padding:3px 7px;border-radius:6px}
-.gone{position:absolute;top:8px;right:8px;background:#111c;color:#fff;font:700 11px inherit;padding:3px 7px;border-radius:6px}
-.b{padding:10px 12px 12px;display:grid;gap:4px}
-.price{font-size:20px;font-weight:700}.price small{font-size:13px;font-weight:500;color:var(--m)}
-.meta{font-size:14px;color:var(--m)}.ttl{font-size:14px;font-weight:600;line-height:1.3}
-.tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:4px}.tag{font:600 12px inherit;padding:3px 8px;border-radius:999px}
-.wd-in-unit{background:#dcfce7;color:#166534}.wd-hookups{background:#dbeafe;color:#1e40af}.wd-unconfirmed{background:#f3f4f6;color:#4b5563}
-.city{background:#ecfdf5;color:var(--g)}.src{font-size:12px;color:var(--m)}.src a{color:var(--g);font-weight:600}
-.note{font-size:12px;color:var(--m)}
-.empty{grid-column:1/-1;text-align:center;color:var(--m);padding:40px 0}
-footer{text-align:center;color:var(--m);font-size:11px;padding:0 16px 24px}
+*{box-sizing:border-box;margin:0}
+html{background:#fff6ec}
+body{font:15px 'Avenir Next',-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif;background:#fff6ec;color:#2b1d14;-webkit-text-size-adjust:100%;padding-bottom:calc(env(safe-area-inset-bottom) + 20px)}
+button{font:inherit;cursor:pointer;-webkit-tap-highlight-color:transparent}
+header{background:linear-gradient(135deg,#ff6b35,#f7931e);color:#fff;padding:calc(env(safe-area-inset-top) + 18px) 18px 22px;border-radius:0 0 26px 26px}
+.hl{display:flex;align-items:center;gap:10px}.lg{width:42px;height:42px;border-radius:13px;background:rgba(255,255,255,.22);display:grid;place-items:center;flex:none}
+.hl h1{font-size:23px;font-weight:800;letter-spacing:-.3px}.hl p{font-size:12.5px;opacity:.9}
+.hero{margin-top:14px;font-size:14px;font-weight:600;background:rgba(255,255,255,.18);border-radius:14px;padding:9px 12px}.hero b{font-size:18px}
+.wrap{max-width:720px;margin:0 auto}
+.chips{display:flex;gap:7px;overflow-x:auto;padding:14px 16px 4px;scrollbar-width:none;-webkit-overflow-scrolling:touch}.chips::-webkit-scrollbar{display:none}
+.chip{flex:none;padding:8px 13px;border-radius:999px;background:#fff;border:2px solid #f2dcc8;font-weight:700;font-size:13px;color:#7a4a2a;display:flex;align-items:center;gap:4px;white-space:nowrap}
+.chip.on{background:#2b1d14;border-color:#2b1d14;color:#fff}.chip.g.on{background:#1f9d6b;border-color:#1f9d6b}
+.chip.y.on{background:#c98a00;border-color:#c98a00}.chip.s.on{background:#ff6b35;border-color:#ff6b35}
+.sep{flex:none;width:2px;margin:6px 2px;background:#f2dcc8;border-radius:1px}
+.rng{margin:8px 16px 0;background:#fff;border-radius:14px;padding:10px 14px 8px;border:2px solid #f2dcc8}
+.lab{display:flex;justify-content:space-between;font-size:12px;font-weight:700;color:#7a4a2a}
+.sl{position:relative;height:30px;margin:2px 0 0}
+.sl .tr{position:absolute;left:9px;right:9px;top:12px;height:6px;border-radius:3px;background:#f2dcc8}
+.sl .fi{position:absolute;top:0;bottom:0;background:#ff6b35;border-radius:3px}
+.sl input{position:absolute;left:0;top:0;width:100%;height:30px;margin:0;background:none;pointer-events:none;-webkit-appearance:none;appearance:none}
+.sl input::-webkit-slider-runnable-track{background:none;height:30px}
+.sl input::-moz-range-track{background:none}
+.sl input::-webkit-slider-thumb{-webkit-appearance:none;pointer-events:auto;width:24px;height:24px;margin-top:3px;border-radius:50%;background:#fff;border:3px solid #ff6b35;box-shadow:0 1px 4px rgba(160,80,20,.3)}
+.sl input::-moz-range-thumb{pointer-events:auto;width:18px;height:18px;border-radius:50%;background:#fff;border:3px solid #ff6b35}
+.sec{display:flex;justify-content:space-between;align-items:baseline;padding:16px 18px 8px;gap:8px}.sec h2{font-size:18px;font-weight:800}.sec span{font-size:12px;color:#a87a5a;font-weight:600}
+.sort{display:flex;gap:6px;padding:0 16px 12px;overflow-x:auto;scrollbar-width:none}.sort::-webkit-scrollbar{display:none}.sort .chip{padding:6px 11px;font-size:12px}
+#list{display:grid;gap:18px;padding:0 18px 12px}
+.cd{background:#fff;border-radius:24px;overflow:hidden;box-shadow:0 10px 26px rgba(160,80,20,.18)}
+.im{height:290px;position:relative;background:linear-gradient(135deg,#ffd8b5,#ffb98a);display:flex;flex-direction:column;gap:8px;align-items:center;justify-content:center;color:#7a4a2a;font-weight:700;text-decoration:none}
+.im>svg{width:64px;height:64px;opacity:.7}.im img{width:100%;height:100%;object-fit:cover;position:absolute;inset:0}
+.pin{position:absolute;left:12px;bottom:12px;background:#fff;color:#2b1d14;font-size:12px;font-weight:800;padding:5px 10px 5px 8px;border-radius:999px;display:flex;align-items:center;gap:4px}.pin svg{color:#ff6b35}
+.nw{position:absolute;top:12px;left:12px;background:#ff2d55;color:#fff;font-size:11px;font-weight:900;padding:5px 10px;border-radius:999px;letter-spacing:.8px}
+.pr{position:absolute;right:12px;bottom:12px;background:#2b1d14;color:#fff;font-weight:800;padding:6px 11px;border-radius:12px;font-size:16px}
+.bd{padding:13px 16px 16px}.bd h3{font-size:17px;font-weight:800;line-height:1.25}
+.mt{display:flex;gap:6px;margin-top:9px;flex-wrap:wrap}.mt span{font-size:12px;font-weight:700;padding:5px 9px;border-radius:9px;background:#fff1e3;color:#7a4a2a}
+.mt .in-unit{background:#dcf5e9;color:#137a50}.mt .hookups{background:#fff0c2;color:#8a5a00}.mt .unconfirmed{background:#eee8e2;color:#6e6259}
+.note{font-size:12px;color:#a87a5a;margin-top:8px;line-height:1.35}
+.btn{display:block;margin-top:12px;text-align:center;background:#ff6b35;color:#fff;font-weight:800;padding:11px;border-radius:14px;text-decoration:none}
+.btn.alt{background:#fff;color:#ff6b35;border:2px solid #ffc9a8;padding:9px;margin-top:8px}
+.fd{font-size:11px;color:#b89478;margin-top:8px;text-align:center}
+.empty{text-align:center;color:#a87a5a;font-weight:700;padding:40px 0}
+footer{text-align:center;color:#a87a5a;font-size:11px;padding:4px 20px 10px;line-height:1.4}
+@media(min-width:760px){.wrap{max-width:1100px}#list{grid-template-columns:repeat(auto-fill,minmax(330px,1fr))}}
 </style></head><body>
-<header><h1>Apartment Hunt</h1><p id="sum">Loading…</p></header>
-<div class="bar">
- <div class="seg" id="city"><button data-v="" class="on">All</button><button data-v="Turlock">Turlock</button><button data-v="Patterson">Patterson</button></div>
- <div class="row"><select id="min" aria-label="Min price"></select><span>to</span><select id="max" aria-label="Max price"></select></div>
- <div class="row"><select id="wd" aria-label="Washer/dryer"><option value="">W/D: any</option><option value="in-unit">In-unit W/D</option><option value="hookups">Hookups</option><option value="in-unit,hookups">In-unit or hookups</option><option value="unconfirmed">Unconfirmed</option></select>
- <select id="sort" aria-label="Sort"><option value="new">Newest first</option><option value="pa">Price: low → high</option><option value="pd">Price: high → low</option></select></div>
+<header><div class="wrap"><div class="hl"><div class="lg"><svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 11 12 4l9 7v9H3z"/><path d="M9 20v-6h6v6"/></svg></div><div><h1>Apartment Hunt</h1><p>2-bed rentals · checked daily 8 AM</p></div></div>
+<div class="hero" id="hero">Loading…</div></div></header>
+<div class="wrap">
+<div class="chips" id="chips">
+ <button class="chip" data-city="">PIN Both</button><button class="chip" data-city="Turlock">PIN Turlock</button><button class="chip" data-city="Patterson">PIN Patterson</button>
+ <span class="sep"></span>
+ <button class="chip" data-wd="">Any W/D</button><button class="chip g" data-wd="in-unit">🧺 In unit</button><button class="chip y" data-wd="hookups">🔌 Hookups</button><button class="chip" data-wd="unconfirmed">❔ Unconfirmed</button>
 </div>
+<div class="rng"><div class="lab"><span>Rent</span><span id="rl">$1,500 – $2,300</span></div>
+ <div class="sl"><div class="tr"><div class="fi" id="fi"></div></div>
+ <input type="range" id="min" min="1500" max="2300" step="25" aria-label="Minimum rent"><input type="range" id="max" min="1500" max="2300" step="25" aria-label="Maximum rent"></div></div>
+<div class="sec"><h2>Fresh picks</h2><span id="cnt"></span></div>
+<div class="sort" id="sort"><button class="chip s" data-sort="new">Newest first</button><button class="chip s" data-sort="pa">Price ↑</button><button class="chip s" data-sort="pd">Price ↓</button></div>
 <main id="list"></main>
-<footer>Public listings from Zillow, Realtor.com and Craigslist. Prices and availability can change — confirm on the listing. <span id="upd"></span></footer>
+<footer>Public listings from Zillow, Realtor.com, Craigslist and other rental sites. Prices and availability change, so confirm on the listing. <span id="upd"></span></footer>
+</div>
 <script>
 const $ = id => document.getElementById(id);
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const pt = d => new Intl.DateTimeFormat('en-CA',{timeZone:'America/Los_Angeles'}).format(d);
-const today = pt(new Date()), money = n => '$' + Number(n).toLocaleString('en-US');
-const WD = {'in-unit':'W/D in unit','hookups':'W/D hookups','unconfirmed':'W/D unconfirmed'};
-const st = JSON.parse(localStorage.getItem('ah-filters') || '{}');
+const today = new Intl.DateTimeFormat('en-CA',{timeZone:'America/Los_Angeles'}).format(new Date());
+const money = n => '$' + Number(n).toLocaleString('en-US');
+const PIN = '<svg viewBox="0 0 24 24" width="13" height="13" fill="currentColor"><path d="M12 2a7 7 0 0 0-7 7c0 5 7 13 7 13s7-8 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6a2.5 2.5 0 0 1 0 5.5z"/></svg>';
+const HOUSE = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 11 12 4l9 7v9H3z"/><path d="M9 20v-6h6v6"/></svg>';
+const WD = {'in-unit':'🧺 W/D in unit','hookups':'🔌 W/D hookups','unconfirmed':'❔ W/D unconfirmed'};
+document.querySelectorAll('.chip').forEach(b => b.innerHTML = b.innerHTML.replace('PIN ', PIN));
+const LO = 1500, HI = 2300;
+let st = {city:'', wd:'', min:LO, max:HI, sort:'new'};
+try { st = Object.assign(st, JSON.parse(localStorage.getItem('ah-c') || '{}')); } catch (e) {}
 let data = {listings: []};
-const steps = []; for (let p = 1500; p <= 2300; p += 100) steps.push(p);
-$('min').innerHTML = steps.slice(0,-1).map(p => `<option value="${p}">Min ${money(p)}</option>`).join('');
-$('max').innerHTML = steps.slice(1).map(p => `<option value="${p}">Max ${money(p)}</option>`).join('');
-$('min').value = st.min || 1500; $('max').value = st.max || 2300; $('wd').value = st.wd || ''; $('sort').value = st.sort || 'new';
-let city = st.city || ''; document.querySelectorAll('#city button').forEach(b => b.classList.toggle('on', b.dataset.v === city));
-const ph = l => l.photo ? `<img loading="lazy" referrerpolicy="no-referrer" src="${esc(l.photo)}" alt="" onerror="this.remove()">` : '';
-const card = l => {
-  const price = l.priceMax ? `${money(l.price)}–${money(l.priceMax)}` : money(l.price);
-  const baths = l.baths != null ? `${l.baths} ba` : 'ba n/a';
-  const more = (l.sources || []).filter(s => s.url !== l.url).map(s => `<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.name)}</a>`).join(' · ');
-  return `<article class="card"><a href="${esc(l.url)}" target="_blank" rel="noopener" style="color:inherit;text-decoration:none">
-  <div class="ph"><div class="ph0"><svg width="40" height="40" viewBox="0 0 512 512"><path d="M256 104 88 244h44v164h96V308h56v100h96V244h44z" fill="#9fb8b5"/></svg>No photo</div>${ph(l)}
-  ${l.firstSeen === today ? '<span class="new">NEW</span>' : ''}${l.status === 'gone' ? '<span class="gone">GONE</span>' : ''}</div>
-  <div class="b"><div class="price">${price}<small> /mo</small></div><div class="meta">${l.beds} bd · ${baths}</div>
-  <div class="ttl">${esc(l.title || l.address || 'Listing')}</div>
-  <div class="tags"><span class="tag wd-${esc(l.washerDryer)}">${WD[l.washerDryer] || 'W/D ?'}</span><span class="tag city">${esc(l.city)}</span></div>
-  ${l.washerDryerNote ? `<div class="note">${esc(l.washerDryerNote)}</div>` : ''}</div></a>
-  <div class="b" style="padding-top:0"><div class="src">View on <a href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.source)}</a>${more ? ' · also ' + more : ''} · found ${esc(l.firstSeen)}</div></div></article>`;
+$('min').value = st.min; $('max').value = st.max;
+const live = () => data.listings.filter(l => l.status !== 'gone');
+const isNew = l => l.firstSeen === today;
+const btns = l => {
+  const seen = new Set(), out = [];
+  [{name: l.source, url: l.url}, ...(l.sources || [])].forEach(s => { if (s && s.url && !seen.has(s.url)) { seen.add(s.url); out.push(s); } });
+  return out.map((s, i) => `<a class="btn${i ? ' alt' : ''}" href="${esc(s.url)}" target="_blank" rel="noopener">See on ${esc(s.name || 'listing')} →</a>`).join('');
 };
+const card = l => {
+  const price = l.priceMax && l.priceMax !== l.price ? `${money(l.price)}–${money(l.priceMax)}` : money(l.price);
+  const img = l.photo ? `<img loading="lazy" referrerpolicy="no-referrer" src="${esc(l.photo)}" alt="" onerror="this.remove()">` : '';
+  return `<article class="cd"><a class="im" href="${esc(l.url)}" target="_blank" rel="noopener">${HOUSE}Photo coming · ${esc(l.source)}${img}
+   ${isNew(l) ? '<span class="nw">NEW</span>' : ''}<span class="pin">${PIN}${esc(l.city)}</span><span class="pr">${price}</span></a>
+   <div class="bd"><h3>${esc(l.title || l.address || 'Listing')}</h3>
+   <div class="mt"><span>🛏 ${esc(l.beds)} bd</span>${l.baths != null ? `<span>🛁 ${esc(l.baths)} ba</span>` : ''}<span class="${esc(l.washerDryer)}">${WD[l.washerDryer] || '❔ W/D unconfirmed'}</span></div>
+   ${l.washerDryerNote ? `<div class="note">${esc(l.washerDryerNote)}</div>` : ''}
+   ${btns(l)}<div class="fd">found ${esc(l.firstSeen)}</div></div></article>`;
+};
+function sync() {
+  document.querySelectorAll('[data-city]').forEach(b => b.classList.toggle('on', b.dataset.city === st.city));
+  document.querySelectorAll('[data-wd]').forEach(b => b.classList.toggle('on', b.dataset.wd === st.wd));
+  document.querySelectorAll('[data-sort]').forEach(b => b.classList.toggle('on', b.dataset.sort === st.sort));
+  const a = (st.min - LO) / (HI - LO), z = (st.max - LO) / (HI - LO);
+  $('fi').style.left = a * 100 + '%'; $('fi').style.right = (1 - z) * 100 + '%';
+  $('rl').textContent = `${money(st.min)} – ${money(st.max)}`;
+}
 function render() {
-  const min = +$('min').value, max = +$('max').value, wd = $('wd').value, sort = $('sort').value;
-  localStorage.setItem('ah-filters', JSON.stringify({city, min, max, wd, sort}));
-  let ls = data.listings.filter(l => l.status !== 'gone' && (!city || l.city === city) && (l.priceMax || l.price) >= min && l.price <= max && (!wd || wd.split(',').includes(l.washerDryer)));
-  ls.sort(sort === 'pa' ? (a,b) => a.price - b.price : sort === 'pd' ? (a,b) => b.price - a.price
-    : (a,b) => (b.firstSeen + (b.posted||'')).localeCompare(a.firstSeen + (a.posted||'')));
-  const nNew = ls.filter(l => l.firstSeen === today).length;
-  $('sum').textContent = `${ls.length} of ${data.listings.filter(l => l.status !== 'gone').length} active · 2 bd · ${money(min)}–${money(max)}${nNew ? ` · ${nNew} new today` : ''}`;
+  localStorage.setItem('ah-c', JSON.stringify(st)); sync();
+  const all = live();
+  let ls = all.filter(l => (!st.city || l.city === st.city) && (!st.wd || l.washerDryer === st.wd) && (l.priceMax || l.price) >= st.min && l.price <= st.max);
+  ls.sort(st.sort === 'pa' ? (a,b) => a.price - b.price : st.sort === 'pd' ? (a,b) => (b.priceMax || b.price) - (a.priceMax || a.price)
+    : (a,b) => (b.firstSeen + (b.posted || '')).localeCompare(a.firstSeen + (a.posted || '')));
+  const n = all.filter(isNew).length;
+  $('hero').innerHTML = `<b>${n} new</b> today · ${all.length} homes you can rent now`;
+  $('cnt').textContent = `${ls.length} match${ls.length === 1 ? '' : 'es'} · scroll ↓`;
   $('list').innerHTML = ls.length ? ls.map(card).join('') : '<div class="empty">No listings match these filters.</div>';
 }
-document.querySelectorAll('#city button').forEach(b => b.onclick = () => { city = b.dataset.v; document.querySelectorAll('#city button').forEach(x => x.classList.toggle('on', x === b)); render(); });
-['min','max','wd','sort'].forEach(id => $(id).onchange = () => { if (+$('min').value >= +$('max').value) { id === 'min' ? $('max').value = Math.min(2300, +$('min').value + 100) : $('min').value = +$('max').value - 100; } render(); });
+document.querySelectorAll('[data-city]').forEach(b => b.onclick = () => { st.city = b.dataset.city; render(); });
+document.querySelectorAll('[data-wd]').forEach(b => b.onclick = () => { st.wd = b.dataset.wd; render(); });
+document.querySelectorAll('[data-sort]').forEach(b => b.onclick = () => { st.sort = b.dataset.sort; render(); });
+['min','max'].forEach(id => $(id).oninput = () => {
+  let a = +$('min').value, z = +$('max').value;
+  if (a > z - 100) { if (id === 'min') { a = z - 100; $('min').value = a; } else { z = a + 100; $('max').value = z; } }
+  st.min = a; st.max = z; render();
+});
+sync();
 fetch('listings.json', {cache: 'no-cache'}).then(r => r.json()).then(d => { data = d; $('upd').textContent = 'Updated ' + d.updated + '.'; render(); })
-  .catch(() => { $('sum').textContent = 'Could not load listings.'; });
+  .catch(() => { $('hero').textContent = 'Could not load listings.'; });
 if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js');
 </script>
 </body></html>
