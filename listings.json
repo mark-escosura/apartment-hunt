@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14",
+ "updated": "2026-11-15",
  "criteria": {
   "cities": [
    "Turlock, CA",
@@ -11,6 +11,90 @@
   "washerDryer": "in-unit or hookups (unconfirmed shown when the listing doesn't say)"
  },
  "listings": [
+  {
+   "id": "1000-zeering-turlock",
+   "title": "1000 W Zeering Rd",
+   "address": "1000 W Zeering Rd",
+   "city": "Turlock",
+   "price": 1810,
+   "priceMax": null,
+   "beds": 2,
+   "baths": null,
+   "washerDryer": "in-unit",
+   "washerDryerNote": "Washer/Dryer in unit per ApartmentGuide listing",
+   "url": "https://www.apartmentguide.com/zip/95382-Apartments-For-Rent/washer-and-dryer-in-unit-31/",
+   "source": "ApartmentGuide",
+   "sources": [
+    {
+     "name": "ApartmentGuide",
+     "url": "https://www.apartmentguide.com/zip/95382-Apartments-For-Rent/washer-and-dryer-in-unit-31/"
+    }
+   ],
+   "photo": null,
+   "posted": "2026-11-15",
+   "sourceIds": [
+    "apartmentguide:1000-zeering"
+   ],
+   "firstSeen": "2026-11-15",
+   "lastSeen": "2026-11-15",
+   "status": "active"
+  },
+  {
+   "id": "121-starr-turlock",
+   "title": "121 Starr Ave (units A & E)",
+   "address": "121 Starr Ave",
+   "city": "Turlock",
+   "price": 1525,
+   "priceMax": 1600,
+   "beds": 2,
+   "baths": null,
+   "washerDryer": "in-unit",
+   "washerDryerNote": "Washer/Dryer in unit per ApartmentGuide listing; unit E $1,525, unit A $1,600",
+   "url": "https://www.apartmentguide.com/zip/95382-Apartments-For-Rent/washer-and-dryer-in-unit-31/",
+   "source": "ApartmentGuide",
+   "sources": [
+    {
+     "name": "ApartmentGuide",
+     "url": "https://www.apartmentguide.com/zip/95382-Apartments-For-Rent/washer-and-dryer-in-unit-31/"
+    }
+   ],
+   "photo": null,
+   "posted": "2026-11-15",
+   "sourceIds": [
+    "apartmentguide:121-starr"
+   ],
+   "firstSeen": "2026-11-15",
+   "lastSeen": "2026-11-15",
+   "status": "active"
+  },
+  {
+   "id": "140-ivy-patterson",
+   "title": "140 Ivy Ave #E38 (condo)",
+   "address": "140 Ivy Ave #E38",
+   "city": "Patterson",
+   "price": 2150,
+   "priceMax": null,
+   "beds": 2,
+   "baths": 2.0,
+   "washerDryer": "in-unit",
+   "washerDryerNote": "In-unit stackable washer and dryer",
+   "url": "https://www.zumper.com/listings/63658676/2-bedroom-patterson-ca",
+   "source": "Zumper",
+   "sources": [
+    {
+     "name": "Zumper",
+     "url": "https://www.zumper.com/listings/63658676/2-bedroom-patterson-ca"
+    }
+   ],
+   "photo": null,
+   "posted": "2026-11-15",
+   "sourceIds": [
+    "zumper:63658676"
+   ],
+   "firstSeen": "2026-11-15",
+   "lastSeen": "2026-11-15",
+   "status": "active"
+  },
   {
    "id": "124-starr-turlock",
    "title": "124-136 Starr Ave",
