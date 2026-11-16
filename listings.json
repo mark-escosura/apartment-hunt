@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15",
+ "updated": "2026-11-16",
  "criteria": {
   "cities": [
    "Turlock, CA",
@@ -11,6 +11,34 @@
   "washerDryer": "in-unit or hookups (unconfirmed shown when the listing doesn't say)"
  },
  "listings": [
+  {
+   "id": "bothun-rd-turlock",
+   "title": "2 bd / 1 ba near Bothun Rd & Alpha Rd (water, sewer, garbage included)",
+   "address": "Bothun Rd near Alpha Rd",
+   "city": "Turlock",
+   "price": 1700,
+   "priceMax": null,
+   "beds": 2,
+   "baths": 1.0,
+   "washerDryer": "hookups",
+   "washerDryerNote": "Craigslist laundry tag: w/d hookups",
+   "url": "https://www.craigslist.org/view/d/turlock-includes-pest-control-water/oJDKwrFGkYejbfZhuApX77",
+   "source": "Craigslist",
+   "sources": [
+    {
+     "name": "Craigslist",
+     "url": "https://www.craigslist.org/view/d/turlock-includes-pest-control-water/oJDKwrFGkYejbfZhuApX77"
+    }
+   ],
+   "photo": "https://images.craigslist.org/01414_3LoYfsHbseu_0kE0fu_600x450.jpg",
+   "posted": "2026-11-16",
+   "sourceIds": [
+    "craigslist:8001326331"
+   ],
+   "firstSeen": "2026-11-16",
+   "lastSeen": "2026-11-16",
+   "status": "active"
+  },
   {
    "id": "140-ivy-patterson",
    "title": "140 Ivy Ave #E38 (condo)",
@@ -184,7 +212,7 @@
    "photo": "https://images.craigslist.org/00d0d_5e1JaFJ5Dvh_0au0dZ_600x450.jpg",
    "posted": "2026-11-14",
    "firstSeen": "2026-11-14",
-   "lastSeen": "2026-11-14",
+   "lastSeen": "2026-11-16",
    "status": "active",
    "sourceIds": [
     "craigslist:7999487700",
@@ -248,7 +276,7 @@
    "photo": "https://images.craigslist.org/00i0i_eLEHWKA6Owq_0t20CI_600x450.jpg",
    "posted": "2026-11-13",
    "firstSeen": "2026-11-14",
-   "lastSeen": "2026-11-14",
+   "lastSeen": "2026-11-16",
    "status": "active",
    "sourceIds": [
     "craigslist:8000295297"
@@ -284,7 +312,7 @@
    "photo": "https://images.craigslist.org/00e0e_hCOyuamdM2a_0jm0cU_600x450.jpg",
    "posted": "2026-11-13",
    "firstSeen": "2026-11-14",
-   "lastSeen": "2026-11-14",
+   "lastSeen": "2026-11-16",
    "status": "active",
    "sourceIds": [
     "craigslist:7999476900",
@@ -500,7 +528,7 @@
    "posted": "2026-11-12",
    "firstSeen": "2026-11-14",
    "lastSeen": "2026-11-14",
-   "status": "active",
+   "status": "gone",
    "sourceIds": [
     "craigslist:7982527449"
    ]
@@ -527,7 +555,7 @@
    "photo": "https://ar.rdcpix.com/50282e1aa19f7591e3704acfbbe2e727c-f2741054887s.jpg",
    "posted": "2026-11-12",
    "firstSeen": "2026-11-14",
-   "lastSeen": "2026-11-14",
+   "lastSeen": "2026-11-16",
    "status": "active",
    "sourceIds": [
     "realtor:2063612710"
@@ -714,7 +742,7 @@
    "photo": "https://images.craigslist.org/00c0c_jrgSGhY1uRS_0hN0n0_600x450.jpg",
    "posted": "2026-11-04",
    "firstSeen": "2026-11-14",
-   "lastSeen": "2026-11-14",
+   "lastSeen": "2026-11-16",
    "status": "active",
    "sourceIds": [
     "craigslist:7995196740",
@@ -835,7 +863,7 @@
    "photo": "https://ap.rdcpix.com/5cd695faf66d6467f180a6cbf777e4a6l-m228297682s.jpg",
    "posted": "2026-10-29",
    "firstSeen": "2026-11-14",
-   "lastSeen": "2026-11-14",
+   "lastSeen": "2026-11-16",
    "status": "active",
    "sourceIds": [
     "realtor:9525583869"
@@ -871,7 +899,7 @@
    "photo": "https://images.craigslist.org/01111_eUumlk2xEew_0ak07K_600x450.jpg",
    "posted": "2026-10-27",
    "firstSeen": "2026-11-14",
-   "lastSeen": "2026-11-14",
+   "lastSeen": "2026-11-16",
    "status": "active",
    "sourceIds": [
     "craigslist:7975808892",
@@ -901,7 +929,7 @@
    "photo": null,
    "posted": "2026-10-26",
    "firstSeen": "2026-11-14",
-   "lastSeen": "2026-11-14",
+   "lastSeen": "2026-11-16",
    "status": "active",
    "sourceIds": [
     "craigslist:7982426730"
@@ -962,7 +990,7 @@
    "photo": "https://images.craigslist.org/01010_h6SWmxeRMlc_0gw0co_600x450.jpg",
    "posted": "2026-10-20",
    "firstSeen": "2026-11-14",
-   "lastSeen": "2026-11-14",
+   "lastSeen": "2026-11-16",
    "status": "active",
    "sourceIds": [
     "craigslist:7986898623",
@@ -991,7 +1019,7 @@
    "photo": "https://ap.rdcpix.com/a1a7f59fce3b14142f9ade1edcd07b13l-m3941213581s.jpg",
    "posted": "2026-10-17",
    "firstSeen": "2026-11-14",
-   "lastSeen": "2026-11-14",
+   "lastSeen": "2026-11-16",
    "status": "active",
    "sourceIds": [
     "realtor:9773477665"
@@ -1135,7 +1163,7 @@
    "photo": "https://images.craigslist.org/00S0S_8x5IaU1fhil_0BW0pi_600x450.jpg",
    "posted": "2026-10-11",
    "firstSeen": "2026-11-14",
-   "lastSeen": "2026-11-14",
+   "lastSeen": "2026-11-16",
    "status": "active",
    "sourceIds": [
     "craigslist:7977640980"
@@ -1250,7 +1278,7 @@
    "photo": "https://images.craigslist.org/00D0D_i2rlaXY5TF8_0t20CI_600x450.jpg",
    "posted": "2026-10-07",
    "firstSeen": "2026-11-14",
-   "lastSeen": "2026-11-14",
+   "lastSeen": "2026-11-16",
    "status": "active",
    "sourceIds": [
     "craigslist:7979670930"
@@ -1786,7 +1814,7 @@
    "photo": "https://ap.rdcpix.com/57f5ceffa8f0aea00b6353a3582cd9a2l-m1100645650s.jpg",
    "posted": null,
    "firstSeen": "2026-11-14",
-   "lastSeen": "2026-11-14",
+   "lastSeen": "2026-11-16",
    "status": "active",
    "sourceIds": [
     "realtor:9100996604"
