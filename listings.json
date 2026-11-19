@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18",
+ "updated": "2026-11-19",
  "criteria": {
   "cities": [
    "Turlock, CA",
@@ -11,6 +11,39 @@
   "washerDryer": "in-unit or hookups (unconfirmed shown when the listing doesn't say)"
  },
  "listings": [
+  {
+   "id": "141-starr-turlock",
+   "title": "141 Starr Ave #C",
+   "address": "141 Starr Ave #C",
+   "city": "Turlock",
+   "price": 1599,
+   "priceMax": null,
+   "beds": 2,
+   "baths": 1.0,
+   "washerDryer": "unconfirmed",
+   "washerDryerNote": "Listing mentions laundry but not the type; available now; listed Nov 18, 2026",
+   "url": "https://www.trulia.com/home/141-starr-ave-c-turlock-ca-95380-2114029021",
+   "source": "Trulia",
+   "sources": [
+    {
+     "name": "Trulia",
+     "url": "https://www.trulia.com/home/141-starr-ave-c-turlock-ca-95380-2114029021"
+    },
+    {
+     "name": "Zillow",
+     "url": "https://www.zillow.com/homedetails/141-Starr-Ave-APT-C-Turlock-CA-95380/2114029021_zpid/"
+    }
+   ],
+   "photo": "https://photos.zillowstatic.com/fp/cc0d91f41c9bddaea59f680f258d514a-p_e.jpg",
+   "posted": "2026-11-18",
+   "sourceIds": [
+    "trulia:2114029021_ZPID",
+    "zillow:2114029021"
+   ],
+   "firstSeen": "2026-11-19",
+   "lastSeen": "2026-11-19",
+   "status": "active"
+  },
   {
    "id": "696-chestnut-turlock",
    "title": "696 Chestnut Ave",
@@ -46,7 +79,7 @@
     "zillow:16033781"
    ],
    "firstSeen": "2026-11-18",
-   "lastSeen": "2026-11-18",
+   "lastSeen": "2026-11-19",
    "status": "active"
   },
   {
@@ -84,7 +117,7 @@
     "zillow:16079712"
    ],
    "firstSeen": "2026-11-18",
-   "lastSeen": "2026-11-18",
+   "lastSeen": "2026-11-19",
    "status": "active"
   },
   {
@@ -113,13 +146,13 @@
    "photo": null,
    "posted": "2026-11-18",
    "sourceIds": [
-    "trulia:466685566_ZPID",
-    "zillow:466685566",
     "trulia:2062387050_ZPID",
-    "zillow:2062387050"
+    "trulia:466685566_ZPID",
+    "zillow:2062387050",
+    "zillow:466685566"
    ],
    "firstSeen": "2026-11-18",
-   "lastSeen": "2026-11-18",
+   "lastSeen": "2026-11-19",
    "status": "active"
   },
   {
@@ -148,7 +181,7 @@
     "zillow:456942625"
    ],
    "firstSeen": "2026-11-18",
-   "lastSeen": "2026-11-18",
+   "lastSeen": "2026-11-19",
    "status": "active"
   },
   {
@@ -177,7 +210,7 @@
     "zillow:16046677"
    ],
    "firstSeen": "2026-11-18",
-   "lastSeen": "2026-11-18",
+   "lastSeen": "2026-11-19",
    "status": "active"
   },
   {
@@ -206,7 +239,7 @@
     "zillow:2079217486"
    ],
    "firstSeen": "2026-11-18",
-   "lastSeen": "2026-11-18",
+   "lastSeen": "2026-11-19",
    "status": "active"
   },
   {
@@ -229,7 +262,7 @@
     "craigslist:8001326331"
    ],
    "firstSeen": "2026-11-16",
-   "lastSeen": "2026-11-18",
+   "lastSeen": "2026-11-19",
    "status": "active"
   },
   {
@@ -257,7 +290,7 @@
     "zumper:63658676"
    ],
    "firstSeen": "2026-11-15",
-   "lastSeen": "2026-11-15",
+   "lastSeen": "2026-11-19",
    "status": "active"
   },
   {
@@ -277,7 +310,7 @@
    "photo": "https://photos.zillowstatic.com/fp/6f9d9f3605b1485b2b40eb63caf20d8d-p_e.jpg",
    "posted": "2026-11-14",
    "firstSeen": "2026-11-14",
-   "lastSeen": "2026-11-18",
+   "lastSeen": "2026-11-19",
    "status": "active",
    "sourceIds": [
     "realtor:9629308226",
@@ -290,19 +323,19 @@
    "title": "Oak Park Apartments · 1700 N Tully Rd",
    "address": "1700 N Tully Rd",
    "city": "Turlock",
-   "price": 1600,
-   "priceMax": 2015,
+   "price": 1740,
+   "priceMax": 1830,
    "beds": 2,
    "baths": "1–2",
    "washerDryer": "hookups",
-   "washerDryerNote": "Listings say washer/dryer hookups in all apartments",
+   "washerDryerNote": "Oak Park: washer/dryer hookups in all apartments (2bd units $1,740–$1,830)",
    "url": "https://www.zillow.com/apartments/turlock-ca/oak-park-apartments/5XjxJk/",
    "source": "Zillow",
    "sources": [],
    "photo": "https://photos.zillowstatic.com/fp/6df533a4ebb2ec8651129efc850c3a5d-p_e.jpg",
    "posted": "2026-11-14",
    "firstSeen": "2026-11-14",
-   "lastSeen": "2026-11-18",
+   "lastSeen": "2026-11-19",
    "status": "active",
    "sourceIds": [
     "craigslist:7975450665",
@@ -364,15 +397,15 @@
    "priceMax": null,
    "beds": 2,
    "baths": 2.0,
-   "washerDryer": "in-unit",
-   "washerDryerNote": "Craigslist laundry tag: w/d in unit",
+   "washerDryer": "hookups",
+   "washerDryerNote": "Tapestry at Silverwood official site: fullsize washer/dryer hook-ups",
    "url": "https://www.craigslist.org/view/d/turlock-unbeatable-turlock-living/4fw6RmW5yPfPLpbGfZMXf9",
    "source": "Craigslist",
    "sources": [],
    "photo": "https://images.craigslist.org/00d0d_5e1JaFJ5Dvh_0au0dZ_600x450.jpg",
    "posted": "2026-11-14",
    "firstSeen": "2026-11-14",
-   "lastSeen": "2026-11-18",
+   "lastSeen": "2026-11-19",
    "status": "active",
    "sourceIds": [
     "craigslist:7999487700",
@@ -400,7 +433,7 @@
    "photo": "https://photos.zillowstatic.com/fp/5fbb4c1430d8fd7b1112fc99c8755e70-p_e.jpg",
    "posted": "2026-11-13",
    "firstSeen": "2026-11-14",
-   "lastSeen": "2026-11-18",
+   "lastSeen": "2026-11-19",
    "status": "active",
    "sourceIds": [
     "realtor:9975165086",
@@ -425,7 +458,7 @@
    "photo": "https://images.craigslist.org/00i0i_eLEHWKA6Owq_0t20CI_600x450.jpg",
    "posted": "2026-11-13",
    "firstSeen": "2026-11-14",
-   "lastSeen": "2026-11-18",
+   "lastSeen": "2026-11-19",
    "status": "active",
    "sourceIds": [
     "craigslist:8000295297"
@@ -448,7 +481,7 @@
    "photo": "https://images.craigslist.org/00e0e_hCOyuamdM2a_0jm0cU_600x450.jpg",
    "posted": "2026-11-13",
    "firstSeen": "2026-11-14",
-   "lastSeen": "2026-11-18",
+   "lastSeen": "2026-11-19",
    "status": "active",
    "sourceIds": [
     "craigslist:7999476900",
@@ -488,7 +521,7 @@
    "photo": "https://photos.zillowstatic.com/fp/0f60b8de38d7425ed02407ecf549c0b3-p_e.jpg",
    "posted": "2026-11-12",
    "firstSeen": "2026-11-14",
-   "lastSeen": "2026-11-18",
+   "lastSeen": "2026-11-19",
    "status": "active",
    "sourceIds": [
     "trulia:460916951_ZPID",
@@ -512,7 +545,7 @@
    "photo": "https://photos.zillowstatic.com/fp/fe158d02f8ba539749c22fc1dd000106-p_e.jpg",
    "posted": "2026-11-12",
    "firstSeen": "2026-11-14",
-   "lastSeen": "2026-11-18",
+   "lastSeen": "2026-11-19",
    "status": "active",
    "sourceIds": [
     "craigslist:7998492132",
@@ -537,7 +570,7 @@
    "photo": "https://photos.zillowstatic.com/fp/7b1916d1d39b780e47138252387d81ab-p_e.jpg",
    "posted": "2026-11-12",
    "firstSeen": "2026-11-14",
-   "lastSeen": "2026-11-18",
+   "lastSeen": "2026-11-19",
    "status": "active",
    "sourceIds": [
     "craigslist:7996005681",
@@ -563,7 +596,7 @@
    "photo": "https://photos.zillowstatic.com/fp/1d7f97e05521155ed3b58e12237caa9e-p_e.jpg",
    "posted": "2026-11-12",
    "firstSeen": "2026-11-14",
-   "lastSeen": "2026-11-18",
+   "lastSeen": "2026-11-19",
    "status": "active",
    "sourceIds": [
     "craigslist:7995390060",
@@ -589,7 +622,7 @@
    "photo": "https://photos.zillowstatic.com/fp/523991cbf2e1711c8d590600ae0f61c4-p_e.jpg",
    "posted": "2026-11-12",
    "firstSeen": "2026-11-14",
-   "lastSeen": "2026-11-18",
+   "lastSeen": "2026-11-19",
    "status": "active",
    "sourceIds": [
     "craigslist:7982525124",
@@ -617,7 +650,7 @@
    "photo": "https://images.craigslist.org/00O0O_eD7TpejRbE5_0jm0t2_600x450.jpg",
    "posted": "2026-11-12",
    "firstSeen": "2026-11-14",
-   "lastSeen": "2026-11-18",
+   "lastSeen": "2026-11-19",
    "status": "active",
    "sourceIds": [
     "craigslist:7982527449",
@@ -643,7 +676,7 @@
    "photo": "https://ar.rdcpix.com/50282e1aa19f7591e3704acfbbe2e727c-f2741054887s.jpg",
    "posted": "2026-11-12",
    "firstSeen": "2026-11-14",
-   "lastSeen": "2026-11-18",
+   "lastSeen": "2026-11-19",
    "status": "active",
    "sourceIds": [
     "realtor:2063612710"
@@ -666,7 +699,7 @@
    "photo": "https://photos.zillowstatic.com/fp/8791e6753ac0f9d2c532aa253eb3fc23-p_e.jpg",
    "posted": "2026-11-11",
    "firstSeen": "2026-11-14",
-   "lastSeen": "2026-11-18",
+   "lastSeen": "2026-11-19",
    "status": "active",
    "sourceIds": [
     "craigslist:7995479940",
@@ -692,7 +725,7 @@
    "posted": "2026-11-09",
    "firstSeen": "2026-11-14",
    "lastSeen": "2026-11-18",
-   "status": "active",
+   "status": "gone",
    "sourceIds": [
     "craigslist:7997969823",
     "trulia:463727889_ZPID",
@@ -716,7 +749,7 @@
    "photo": "https://photos.zillowstatic.com/fp/2f3940a577eb203242e1275aeb919fe6-p_e.jpg",
    "posted": "2026-11-05",
    "firstSeen": "2026-11-14",
-   "lastSeen": "2026-11-18",
+   "lastSeen": "2026-11-19",
    "status": "active",
    "sourceIds": [
     "trulia:457349318_ZPID",
@@ -740,7 +773,7 @@
    "photo": "https://photos.zillowstatic.com/fp/3b22772756d1bbc1ddd70107036d5c16-p_e.jpg",
    "posted": "2026-11-05",
    "firstSeen": "2026-11-14",
-   "lastSeen": "2026-11-18",
+   "lastSeen": "2026-11-19",
    "status": "active",
    "sourceIds": [
     "trulia:466464308_ZPID",
@@ -764,7 +797,7 @@
    "photo": "https://photos.zillowstatic.com/fp/60fb60509de687c80e11f26793a221b0-p_e.jpg",
    "posted": "2026-11-05",
    "firstSeen": "2026-11-14",
-   "lastSeen": "2026-11-18",
+   "lastSeen": "2026-11-19",
    "status": "active",
    "sourceIds": [
     "trulia:466452973_ZPID",
@@ -789,7 +822,7 @@
    "posted": "2026-11-04",
    "firstSeen": "2026-11-14",
    "lastSeen": "2026-11-18",
-   "status": "active",
+   "status": "gone",
    "sourceIds": [
     "craigslist:7995196740",
     "realtor:9542927739"
@@ -818,7 +851,7 @@
    "posted": "2026-11-03",
    "firstSeen": "2026-11-14",
    "lastSeen": "2026-11-14",
-   "status": "active",
+   "status": "gone",
    "sourceIds": [
     "trulia:466416715_ZPID",
     "zillow:466416715"
@@ -841,7 +874,7 @@
    "photo": "https://photos.zillowstatic.com/fp/650eb186269158e62c502a7392be4b4b-p_e.jpg",
    "posted": "2026-11-01",
    "firstSeen": "2026-11-14",
-   "lastSeen": "2026-11-18",
+   "lastSeen": "2026-11-19",
    "status": "active",
    "sourceIds": [
     "realtor:9164620920",
@@ -866,7 +899,7 @@
    "photo": "https://photos.zillowstatic.com/fp/58618847342f69cf2d0ffde111463807-p_e.jpg",
    "posted": "2026-10-30",
    "firstSeen": "2026-11-14",
-   "lastSeen": "2026-11-18",
+   "lastSeen": "2026-11-19",
    "status": "active",
    "sourceIds": [
     "trulia:463013873_ZPID",
@@ -882,15 +915,15 @@
    "priceMax": null,
    "beds": 2,
    "baths": 2.5,
-   "washerDryer": "hookups",
-   "washerDryerNote": "Indoor washer and dryer hookups (Realtor.com also lists washer/dryer)",
+   "washerDryer": "in-unit",
+   "washerDryerNote": "Listing says indoor washer and dryer",
    "url": "https://www.realtor.com/rentals/details/3697-Tuscany-Pl_Turlock_CA_95382_M95255-83869",
    "source": "Realtor.com",
    "sources": [],
    "photo": "https://ap.rdcpix.com/5cd695faf66d6467f180a6cbf777e4a6l-m228297682s.jpg",
    "posted": "2026-10-29",
    "firstSeen": "2026-11-14",
-   "lastSeen": "2026-11-18",
+   "lastSeen": "2026-11-19",
    "status": "active",
    "sourceIds": [
     "realtor:9525583869"
@@ -913,7 +946,7 @@
    "photo": "https://images.craigslist.org/01111_eUumlk2xEew_0ak07K_600x450.jpg",
    "posted": "2026-10-27",
    "firstSeen": "2026-11-14",
-   "lastSeen": "2026-11-18",
+   "lastSeen": "2026-11-19",
    "status": "active",
    "sourceIds": [
     "craigslist:7975808892",
@@ -938,7 +971,7 @@
    "photo": null,
    "posted": "2026-10-26",
    "firstSeen": "2026-11-14",
-   "lastSeen": "2026-11-18",
+   "lastSeen": "2026-11-19",
    "status": "active",
    "sourceIds": [
     "craigslist:7982426730"
@@ -967,7 +1000,7 @@
    "posted": "2026-10-23",
    "firstSeen": "2026-11-14",
    "lastSeen": "2026-11-14",
-   "status": "active",
+   "status": "gone",
    "sourceIds": [
     "trulia:455184960_ZPID",
     "zillow:455184960"
@@ -990,7 +1023,7 @@
    "photo": "https://images.craigslist.org/01010_h6SWmxeRMlc_0gw0co_600x450.jpg",
    "posted": "2026-10-20",
    "firstSeen": "2026-11-14",
-   "lastSeen": "2026-11-18",
+   "lastSeen": "2026-11-19",
    "status": "active",
    "sourceIds": [
     "craigslist:7986898623",
@@ -1014,7 +1047,7 @@
    "photo": "https://ap.rdcpix.com/a1a7f59fce3b14142f9ade1edcd07b13l-m3941213581s.jpg",
    "posted": "2026-10-17",
    "firstSeen": "2026-11-14",
-   "lastSeen": "2026-11-18",
+   "lastSeen": "2026-11-19",
    "status": "active",
    "sourceIds": [
     "realtor:9773477665"
@@ -1037,7 +1070,7 @@
    "photo": "https://photos.zillowstatic.com/fp/b3da4020e80944ad25f6deaaef286a9b-p_e.jpg",
    "posted": "2026-10-15",
    "firstSeen": "2026-11-14",
-   "lastSeen": "2026-11-18",
+   "lastSeen": "2026-11-19",
    "status": "active",
    "sourceIds": [
     "trulia:466042135_ZPID",
@@ -1061,7 +1094,7 @@
    "photo": "https://photos.zillowstatic.com/fp/56b6893ae001ef701192a30402492736-p_e.jpg",
    "posted": "2026-10-13",
    "firstSeen": "2026-11-14",
-   "lastSeen": "2026-11-18",
+   "lastSeen": "2026-11-19",
    "status": "active",
    "sourceIds": [
     "trulia:464692116_ZPID",
@@ -1085,7 +1118,7 @@
    "photo": "https://photos.zillowstatic.com/fp/12ed35b004450bebedb514f362887072-p_e.jpg",
    "posted": "2026-10-13",
    "firstSeen": "2026-11-14",
-   "lastSeen": "2026-11-18",
+   "lastSeen": "2026-11-19",
    "status": "active",
    "sourceIds": [
     "trulia:2060883056_ZPID",
@@ -1109,7 +1142,7 @@
    "photo": "https://photos.zillowstatic.com/fp/e03c31109cb2904df914569f183a8f7e-p_e.jpg",
    "posted": "2026-10-12",
    "firstSeen": "2026-11-14",
-   "lastSeen": "2026-11-18",
+   "lastSeen": "2026-11-19",
    "status": "active",
    "sourceIds": [
     "trulia:465014867_ZPID",
@@ -1161,7 +1194,7 @@
    "photo": "https://photos.zillowstatic.com/fp/b2d6b273e0ce084e323f8d12aee4cbef-p_e.jpg",
    "posted": "2026-10-09",
    "firstSeen": "2026-11-14",
-   "lastSeen": "2026-11-18",
+   "lastSeen": "2026-11-19",
    "status": "active",
    "sourceIds": [
     "trulia:463520176_ZPID",
@@ -1191,7 +1224,7 @@
    "posted": "2026-10-08",
    "firstSeen": "2026-11-14",
    "lastSeen": "2026-11-14",
-   "status": "active",
+   "status": "gone",
    "sourceIds": [
     "trulia:2059084886_ZPID",
     "zillow:2059084886"
@@ -1214,7 +1247,7 @@
    "photo": "https://photos.zillowstatic.com/fp/3052d7d70a1a71c881df5febb3557969-p_e.jpg",
    "posted": "2026-10-08",
    "firstSeen": "2026-11-14",
-   "lastSeen": "2026-11-18",
+   "lastSeen": "2026-11-19",
    "status": "active",
    "sourceIds": [
     "trulia:16033845_ZPID",
@@ -1267,7 +1300,7 @@
    "posted": "2026-10-06",
    "firstSeen": "2026-11-14",
    "lastSeen": "2026-11-18",
-   "status": "active",
+   "status": "gone",
    "sourceIds": [
     "trulia:2100106329_ZPID",
     "zillow:2100106329"
@@ -1290,7 +1323,7 @@
    "photo": "https://photos.zillowstatic.com/fp/7bf0d2eace31c5dd5025b92df736422d-p_e.jpg",
    "posted": "2026-10-06",
    "firstSeen": "2026-11-14",
-   "lastSeen": "2026-11-18",
+   "lastSeen": "2026-11-19",
    "status": "active",
    "sourceIds": [
     "trulia:82398379_ZPID",
@@ -1314,7 +1347,7 @@
    "photo": "https://photos.zillowstatic.com/fp/418f81f15138f2fd4585fae3e2c0f162-p_e.jpg",
    "posted": "2026-10-01",
    "firstSeen": "2026-11-14",
-   "lastSeen": "2026-11-18",
+   "lastSeen": "2026-11-19",
    "status": "active",
    "sourceIds": [
     "trulia:2053191557_ZPID",
@@ -1338,7 +1371,7 @@
    "photo": "https://photos.zillowstatic.com/fp/e9718a6663c3a0242feddfea36d09501-p_e.jpg",
    "posted": "2026-09-30",
    "firstSeen": "2026-11-14",
-   "lastSeen": "2026-11-18",
+   "lastSeen": "2026-11-19",
    "status": "active",
    "sourceIds": [
     "trulia:463808248_ZPID",
@@ -1362,7 +1395,7 @@
    "photo": "https://photos.zillowstatic.com/fp/feb4a0d6528abac9504cd59768a39246-p_e.jpg",
    "posted": "2026-09-28",
    "firstSeen": "2026-11-14",
-   "lastSeen": "2026-11-18",
+   "lastSeen": "2026-11-19",
    "status": "active",
    "sourceIds": [
     "realtor:2125976977",
@@ -1388,7 +1421,7 @@
    "posted": "2026-09-22",
    "firstSeen": "2026-11-14",
    "lastSeen": "2026-11-18",
-   "status": "active",
+   "status": "gone",
    "sourceIds": [
     "realtor:2653705705",
     "trulia:2059059023_ZPID",
@@ -1412,7 +1445,7 @@
    "photo": "https://photos.zillowstatic.com/fp/ffbf98fc56b6132155784e7f215cd2d6-p_e.jpg",
    "posted": "2026-09-16",
    "firstSeen": "2026-11-14",
-   "lastSeen": "2026-11-18",
+   "lastSeen": "2026-11-19",
    "status": "active",
    "sourceIds": [
     "trulia:2094226271_ZPID",
@@ -1436,7 +1469,7 @@
    "photo": "https://photos.zillowstatic.com/fp/b4d72cf7d25b3f3f8671fdba703b5a80-p_e.jpg",
    "posted": "2026-09-14",
    "firstSeen": "2026-11-14",
-   "lastSeen": "2026-11-18",
+   "lastSeen": "2026-11-19",
    "status": "active",
    "sourceIds": [
     "trulia:465254192_ZPID",
@@ -1460,7 +1493,7 @@
    "photo": "https://photos.zillowstatic.com/fp/9a4a0cc32e67fb3d6be2af580d354421-p_e.jpg",
    "posted": "2026-09-14",
    "firstSeen": "2026-11-14",
-   "lastSeen": "2026-11-18",
+   "lastSeen": "2026-11-19",
    "status": "active",
    "sourceIds": [
     "realtor:1279428600",
@@ -1485,7 +1518,7 @@
    "photo": "https://photos.zillowstatic.com/fp/e143e8c8c98f3a0774c56372fda2fbb8-p_e.jpg",
    "posted": "2026-08-18",
    "firstSeen": "2026-11-14",
-   "lastSeen": "2026-11-18",
+   "lastSeen": "2026-11-19",
    "status": "active",
    "sourceIds": [
     "trulia:2116453545_ZPID",
@@ -1509,7 +1542,7 @@
    "photo": "https://photos.zillowstatic.com/fp/c07d1e1e64299dc3e345903fbd4e6b89-p_e.jpg",
    "posted": "2026-08-04",
    "firstSeen": "2026-11-14",
-   "lastSeen": "2026-11-18",
+   "lastSeen": "2026-11-19",
    "status": "active",
    "sourceIds": [
     "trulia:345922972_ZPID",
@@ -1533,7 +1566,7 @@
    "photo": "https://photos.zillowstatic.com/fp/d8ac421562effad93036e9a528f8d65f-p_e.jpg",
    "posted": "2026-08-04",
    "firstSeen": "2026-11-14",
-   "lastSeen": "2026-11-18",
+   "lastSeen": "2026-11-19",
    "status": "active",
    "sourceIds": [
     "trulia:300255632_ZPID",
@@ -1557,7 +1590,7 @@
    "photo": "https://photos.zillowstatic.com/fp/69462debf6b8e23d2bbeb87a663313e7-p_e.jpg",
    "posted": "2025-08-01",
    "firstSeen": "2026-11-14",
-   "lastSeen": "2026-11-18",
+   "lastSeen": "2026-11-19",
    "status": "active",
    "sourceIds": [
     "realtor:9467370590",
@@ -1571,18 +1604,18 @@
    "address": "3025 W Christoffersen Pkwy",
    "city": "Turlock",
    "price": 1929,
-   "priceMax": 2196,
+   "priceMax": 2197,
    "beds": 2,
    "baths": 2.0,
    "washerDryer": "in-unit",
-   "washerDryerNote": "Zillow/Trulia amenities list washer and dryer",
+   "washerDryerNote": "Sierra Oaks: laundry in unit; 2bd advertised $1,929–$2,197",
    "url": "https://www.craigslist.org/view/d/turlock-move-in-special-available-stop/r7WwEBf3duyVkvHma9piFk",
    "source": "Zillow",
    "sources": [],
    "photo": "https://photos.zillowstatic.com/fp/4168b9bdc4c70188a0f82f9b4cf0d69e-p_e.jpg",
    "posted": null,
    "firstSeen": "2026-11-14",
-   "lastSeen": "2026-11-18",
+   "lastSeen": "2026-11-19",
    "status": "active",
    "sourceIds": [
     "craigslist:8002157514",
@@ -1611,7 +1644,7 @@
    "posted": null,
    "firstSeen": "2026-11-14",
    "lastSeen": "2026-11-18",
-   "status": "active",
+   "status": "gone",
    "sourceIds": [
     "realtor:2702413268",
     "trulia:1001466403_BUILDING_ID",
@@ -1636,7 +1669,7 @@
    "posted": null,
    "firstSeen": "2026-11-14",
    "lastSeen": "2026-11-18",
-   "status": "active",
+   "status": "gone",
    "sourceIds": [
     "realtor:2677892278",
     "trulia:1001467756_BUILDING_ID",
@@ -1660,7 +1693,7 @@
    "photo": "https://photos.zillowstatic.com/fp/356c73e8b8e3d96127a925bd890f12ce-p_e.jpg",
    "posted": null,
    "firstSeen": "2026-11-14",
-   "lastSeen": "2026-11-18",
+   "lastSeen": "2026-11-19",
    "status": "active",
    "sourceIds": [
     "realtor:2704986791",
@@ -1685,7 +1718,7 @@
    "photo": "https://ap.rdcpix.com/57f5ceffa8f0aea00b6353a3582cd9a2l-m1100645650s.jpg",
    "posted": null,
    "firstSeen": "2026-11-14",
-   "lastSeen": "2026-11-18",
+   "lastSeen": "2026-11-19",
    "status": "active",
    "sourceIds": [
     "realtor:9100996604"
