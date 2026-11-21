@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20",
+ "updated": "2026-11-21",
  "criteria": {
   "cities": [
    "Turlock, CA",
@@ -11,34 +11,6 @@
   "washerDryer": "in-unit or hookups (unconfirmed shown when the listing doesn't say)"
  },
  "listings": [
-  {
-   "id": "320-broadway-turlock",
-   "title": "320 S Broadway",
-   "address": "320 S Broadway",
-   "city": "Turlock",
-   "price": 1725,
-   "priceMax": null,
-   "beds": 2,
-   "baths": 1,
-   "washerDryer": "unconfirmed",
-   "washerDryerNote": "Realtor.com listing doesn't state laundry",
-   "url": "https://www.realtor.com/rentals/details/320-S-Broadway_Turlock_CA_95380_M91733-83631",
-   "source": "Realtor.com",
-   "sources": [
-    {
-     "name": "Realtor.com",
-     "url": "https://www.realtor.com/rentals/details/320-S-Broadway_Turlock_CA_95380_M91733-83631"
-    }
-   ],
-   "photo": "https://ap.rdcpix.com/2f3e4c32f81b6609a68f3085bded7cd7l-m1556408149od-w640_h480.jpg",
-   "posted": null,
-   "sourceIds": [
-    "realtor:M91733-83631"
-   ],
-   "firstSeen": "2026-11-21",
-   "lastSeen": "2026-11-21",
-   "status": "active"
-  },
   {
    "id": "141-starr-turlock",
    "title": "141 Starr Ave #C",
@@ -348,15 +320,15 @@
   },
   {
    "id": "1700-tully-turlock",
-   "title": "Oak Park Apartments \u00b7 1700 N Tully Rd",
+   "title": "Oak Park Apartments · 1700 N Tully Rd",
    "address": "1700 N Tully Rd",
    "city": "Turlock",
    "price": 1740,
    "priceMax": 1830,
    "beds": 2,
-   "baths": "1\u20132",
+   "baths": "1–2",
    "washerDryer": "hookups",
-   "washerDryerNote": "Oak Park: washer/dryer hookups in all apartments (2bd units $1,740\u2013$1,830)",
+   "washerDryerNote": "Oak Park: washer/dryer hookups in all apartments (2bd units $1,740–$1,830)",
    "url": "https://www.zillow.com/apartments/turlock-ca/oak-park-apartments/5XjxJk/",
    "source": "Zillow",
    "sources": [],
@@ -509,7 +481,7 @@
    "price": 1795,
    "priceMax": 1895,
    "beds": 2,
-   "baths": "1\u20132",
+   "baths": "1–2",
    "washerDryer": "hookups",
    "washerDryerNote": "Craigslist laundry tag: w/d hookups",
    "url": "https://www.craigslist.org/view/d/turlock-apartments-available-dont-miss/aZeMwZCCsjZ8dEuAJ5u4pu",
@@ -752,7 +724,7 @@
    "price": 1750,
    "priceMax": 1850,
    "beds": 2,
-   "baths": "1\u20131.5",
+   "baths": "1–1.5",
    "washerDryer": "unconfirmed",
    "washerDryerNote": "Zillow lists 'Washer'; Craigslist tag says laundry on site",
    "url": "https://www.zillow.com/homedetails/957-Wakefield-Rd-Turlock-CA-95380/463727889_zpid/",
@@ -1524,7 +1496,7 @@
   },
   {
    "id": "1190-kenwood-turlock",
-   "title": "Charming Townhouse in Turlock \u00b7 1190 Kenwood Ave #5",
+   "title": "Charming Townhouse in Turlock · 1190 Kenwood Ave #5",
    "address": "1190 Kenwood Ave #5",
    "city": "Turlock",
    "price": 1525,
@@ -1646,7 +1618,7 @@
   },
   {
    "id": "3025-christoffersen-turlock",
-   "title": "Sierra Oaks \u00b7 3025 W Christoffersen Pkwy",
+   "title": "Sierra Oaks · 3025 W Christoffersen Pkwy",
    "address": "3025 W Christoffersen Pkwy",
    "city": "Turlock",
    "price": 1929,
@@ -1654,7 +1626,7 @@
    "beds": 2,
    "baths": 2.0,
    "washerDryer": "in-unit",
-   "washerDryerNote": "Sierra Oaks: laundry in unit; 2bd advertised $1,929\u2013$2,197",
+   "washerDryerNote": "Sierra Oaks: laundry in unit; 2bd advertised $1,929–$2,197",
    "url": "https://www.craigslist.org/view/d/turlock-move-in-special-available-stop/r7WwEBf3duyVkvHma9piFk",
    "source": "Zillow",
    "sources": [],
@@ -1674,7 +1646,7 @@
   },
   {
    "id": "351-monte-turlock",
-   "title": "Briarwood Apartments \u00b7 351 E Monte Vista Ave",
+   "title": "Briarwood Apartments · 351 E Monte Vista Ave",
    "address": "351 E Monte Vista Ave",
    "city": "Turlock",
    "price": 1690,
@@ -1699,7 +1671,7 @@
   },
   {
    "id": "1100-pedras-turlock",
-   "title": "Park Knolls Apartments \u00b7 1100 Pedras Rd",
+   "title": "Park Knolls Apartments · 1100 Pedras Rd",
    "address": "1100 Pedras Rd",
    "city": "Turlock",
    "price": 1642,
@@ -1724,7 +1696,7 @@
   },
   {
    "id": "1525-monte-turlock",
-   "title": "Monte Vista Apartments \u00b7 1525 W Monte Vista Ave",
+   "title": "Monte Vista Apartments · 1525 W Monte Vista Ave",
    "address": "1525 W Monte Vista Ave",
    "city": "Turlock",
    "price": 2085,
