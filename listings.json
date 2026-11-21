@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20",
+ "updated": "2026-11-21",
  "criteria": {
   "cities": [
    "Turlock, CA",
@@ -11,6 +11,34 @@
   "washerDryer": "in-unit or hookups (unconfirmed shown when the listing doesn't say)"
  },
  "listings": [
+  {
+   "id": "320-broadway-turlock",
+   "title": "320 S Broadway",
+   "address": "320 S Broadway",
+   "city": "Turlock",
+   "price": 1725,
+   "priceMax": null,
+   "beds": 2,
+   "baths": 1,
+   "washerDryer": "unconfirmed",
+   "washerDryerNote": "Realtor.com listing doesn't state laundry",
+   "url": "https://www.realtor.com/rentals/details/320-S-Broadway_Turlock_CA_95380_M91733-83631",
+   "source": "Realtor.com",
+   "sources": [
+    {
+     "name": "Realtor.com",
+     "url": "https://www.realtor.com/rentals/details/320-S-Broadway_Turlock_CA_95380_M91733-83631"
+    }
+   ],
+   "photo": "https://ap.rdcpix.com/2f3e4c32f81b6609a68f3085bded7cd7l-m1556408149od-w640_h480.jpg",
+   "posted": null,
+   "sourceIds": [
+    "realtor:M91733-83631"
+   ],
+   "firstSeen": "2026-11-21",
+   "lastSeen": "2026-11-21",
+   "status": "active"
+  },
   {
    "id": "141-starr-turlock",
    "title": "141 Starr Ave #C",
@@ -263,7 +291,7 @@
    ],
    "firstSeen": "2026-11-16",
    "lastSeen": "2026-11-20",
-   "status": "active"
+   "status": "gone"
   },
   {
    "id": "140-ivy-patterson",
@@ -311,7 +339,7 @@
    "posted": "2026-11-14",
    "firstSeen": "2026-11-14",
    "lastSeen": "2026-11-20",
-   "status": "active",
+   "status": "gone",
    "sourceIds": [
     "realtor:9629308226",
     "trulia:466630865_ZPID",
@@ -336,7 +364,7 @@
    "posted": "2026-11-14",
    "firstSeen": "2026-11-14",
    "lastSeen": "2026-11-20",
-   "status": "active",
+   "status": "gone",
    "sourceIds": [
     "craigslist:7975450665",
     "craigslist:7975680756",
@@ -443,7 +471,7 @@
    "posted": "2026-11-13",
    "firstSeen": "2026-11-14",
    "lastSeen": "2026-11-20",
-   "status": "active",
+   "status": "gone",
    "sourceIds": [
     "realtor:9975165086",
     "trulia:466445469_ZPID",
@@ -468,7 +496,7 @@
    "posted": "2026-11-13",
    "firstSeen": "2026-11-14",
    "lastSeen": "2026-11-20",
-   "status": "active",
+   "status": "gone",
    "sourceIds": [
     "craigslist:8000295297"
    ]
@@ -491,7 +519,7 @@
    "posted": "2026-11-13",
    "firstSeen": "2026-11-14",
    "lastSeen": "2026-11-20",
-   "status": "active",
+   "status": "gone",
    "sourceIds": [
     "craigslist:7999476900",
     "craigslist:7999543497",
@@ -531,7 +559,7 @@
    "posted": "2026-11-12",
    "firstSeen": "2026-11-14",
    "lastSeen": "2026-11-20",
-   "status": "active",
+   "status": "gone",
    "sourceIds": [
     "trulia:460916951_ZPID",
     "zillow:460916951"
@@ -555,7 +583,7 @@
    "posted": "2026-11-12",
    "firstSeen": "2026-11-14",
    "lastSeen": "2026-11-20",
-   "status": "active",
+   "status": "gone",
    "sourceIds": [
     "craigslist:7998492132",
     "trulia:466522446_ZPID",
@@ -580,7 +608,7 @@
    "posted": "2026-11-12",
    "firstSeen": "2026-11-14",
    "lastSeen": "2026-11-20",
-   "status": "active",
+   "status": "gone",
    "sourceIds": [
     "craigslist:7996005681",
     "realtor:2462061268",
@@ -606,7 +634,7 @@
    "posted": "2026-11-12",
    "firstSeen": "2026-11-14",
    "lastSeen": "2026-11-20",
-   "status": "active",
+   "status": "gone",
    "sourceIds": [
     "craigslist:7995390060",
     "realtor:2139839908",
@@ -632,7 +660,7 @@
    "posted": "2026-11-12",
    "firstSeen": "2026-11-14",
    "lastSeen": "2026-11-20",
-   "status": "active",
+   "status": "gone",
    "sourceIds": [
     "craigslist:7982525124",
     "craigslist:8001605262",
@@ -660,7 +688,7 @@
    "posted": "2026-11-12",
    "firstSeen": "2026-11-14",
    "lastSeen": "2026-11-20",
-   "status": "active",
+   "status": "gone",
    "sourceIds": [
     "craigslist:7982527449",
     "craigslist:8001603807",
@@ -686,7 +714,7 @@
    "posted": "2026-11-12",
    "firstSeen": "2026-11-14",
    "lastSeen": "2026-11-20",
-   "status": "active",
+   "status": "gone",
    "sourceIds": [
     "realtor:2063612710"
    ]
@@ -709,7 +737,7 @@
    "posted": "2026-11-11",
    "firstSeen": "2026-11-14",
    "lastSeen": "2026-11-20",
-   "status": "active",
+   "status": "gone",
    "sourceIds": [
     "craigslist:7995479940",
     "trulia:2054010814_ZPID",
@@ -759,7 +787,7 @@
    "posted": "2026-11-05",
    "firstSeen": "2026-11-14",
    "lastSeen": "2026-11-20",
-   "status": "active",
+   "status": "gone",
    "sourceIds": [
     "trulia:457349318_ZPID",
     "zillow:457349318"
@@ -783,7 +811,7 @@
    "posted": "2026-11-05",
    "firstSeen": "2026-11-14",
    "lastSeen": "2026-11-20",
-   "status": "active",
+   "status": "gone",
    "sourceIds": [
     "trulia:466464308_ZPID",
     "zillow:466464308"
@@ -807,7 +835,7 @@
    "posted": "2026-11-05",
    "firstSeen": "2026-11-14",
    "lastSeen": "2026-11-20",
-   "status": "active",
+   "status": "gone",
    "sourceIds": [
     "trulia:466452973_ZPID",
     "zillow:466452973"
@@ -884,7 +912,7 @@
    "posted": "2026-11-01",
    "firstSeen": "2026-11-14",
    "lastSeen": "2026-11-20",
-   "status": "active",
+   "status": "gone",
    "sourceIds": [
     "realtor:9164620920",
     "trulia:113060054_ZPID",
@@ -909,7 +937,7 @@
    "posted": "2026-10-30",
    "firstSeen": "2026-11-14",
    "lastSeen": "2026-11-20",
-   "status": "active",
+   "status": "gone",
    "sourceIds": [
     "trulia:463013873_ZPID",
     "zillow:463013873"
@@ -933,7 +961,7 @@
    "posted": "2026-10-29",
    "firstSeen": "2026-11-14",
    "lastSeen": "2026-11-20",
-   "status": "active",
+   "status": "gone",
    "sourceIds": [
     "realtor:9525583869"
    ]
@@ -956,7 +984,7 @@
    "posted": "2026-10-27",
    "firstSeen": "2026-11-14",
    "lastSeen": "2026-11-20",
-   "status": "active",
+   "status": "gone",
    "sourceIds": [
     "craigslist:7975808892",
     "craigslist:7984954920",
@@ -981,7 +1009,7 @@
    "posted": "2026-10-26",
    "firstSeen": "2026-11-14",
    "lastSeen": "2026-11-20",
-   "status": "active",
+   "status": "gone",
    "sourceIds": [
     "craigslist:7982426730"
    ]
@@ -1057,7 +1085,7 @@
    "posted": "2026-10-17",
    "firstSeen": "2026-11-14",
    "lastSeen": "2026-11-20",
-   "status": "active",
+   "status": "gone",
    "sourceIds": [
     "realtor:9773477665"
    ]
@@ -1080,7 +1108,7 @@
    "posted": "2026-10-15",
    "firstSeen": "2026-11-14",
    "lastSeen": "2026-11-20",
-   "status": "active",
+   "status": "gone",
    "sourceIds": [
     "trulia:466042135_ZPID",
     "zillow:466042135"
@@ -1104,7 +1132,7 @@
    "posted": "2026-10-13",
    "firstSeen": "2026-11-14",
    "lastSeen": "2026-11-20",
-   "status": "active",
+   "status": "gone",
    "sourceIds": [
     "trulia:464692116_ZPID",
     "zillow:464692116"
@@ -1128,7 +1156,7 @@
    "posted": "2026-10-13",
    "firstSeen": "2026-11-14",
    "lastSeen": "2026-11-20",
-   "status": "active",
+   "status": "gone",
    "sourceIds": [
     "trulia:2060883056_ZPID",
     "zillow:2060883056"
@@ -1152,7 +1180,7 @@
    "posted": "2026-10-12",
    "firstSeen": "2026-11-14",
    "lastSeen": "2026-11-20",
-   "status": "active",
+   "status": "gone",
    "sourceIds": [
     "trulia:465014867_ZPID",
     "zillow:465014867"
@@ -1204,7 +1232,7 @@
    "posted": "2026-10-09",
    "firstSeen": "2026-11-14",
    "lastSeen": "2026-11-20",
-   "status": "active",
+   "status": "gone",
    "sourceIds": [
     "trulia:463520176_ZPID",
     "zillow:463520176"
@@ -1257,7 +1285,7 @@
    "posted": "2026-10-08",
    "firstSeen": "2026-11-14",
    "lastSeen": "2026-11-20",
-   "status": "active",
+   "status": "gone",
    "sourceIds": [
     "trulia:16033845_ZPID",
     "zillow:16033845"
@@ -1333,7 +1361,7 @@
    "posted": "2026-10-06",
    "firstSeen": "2026-11-14",
    "lastSeen": "2026-11-20",
-   "status": "active",
+   "status": "gone",
    "sourceIds": [
     "trulia:82398379_ZPID",
     "zillow:82398379"
@@ -1357,7 +1385,7 @@
    "posted": "2026-10-01",
    "firstSeen": "2026-11-14",
    "lastSeen": "2026-11-20",
-   "status": "active",
+   "status": "gone",
    "sourceIds": [
     "trulia:2053191557_ZPID",
     "zillow:2053191557"
@@ -1381,7 +1409,7 @@
    "posted": "2026-09-30",
    "firstSeen": "2026-11-14",
    "lastSeen": "2026-11-20",
-   "status": "active",
+   "status": "gone",
    "sourceIds": [
     "trulia:463808248_ZPID",
     "zillow:463808248"
@@ -1405,7 +1433,7 @@
    "posted": "2026-09-28",
    "firstSeen": "2026-11-14",
    "lastSeen": "2026-11-20",
-   "status": "active",
+   "status": "gone",
    "sourceIds": [
     "realtor:2125976977",
     "trulia:16046777_ZPID",
@@ -1464,7 +1492,7 @@
    "posted": "2026-09-16",
    "firstSeen": "2026-11-14",
    "lastSeen": "2026-11-20",
-   "status": "active",
+   "status": "gone",
    "sourceIds": [
     "trulia:2094226271_ZPID",
     "zillow:2094226271"
@@ -1488,7 +1516,7 @@
    "posted": "2026-09-14",
    "firstSeen": "2026-11-14",
    "lastSeen": "2026-11-20",
-   "status": "active",
+   "status": "gone",
    "sourceIds": [
     "trulia:465254192_ZPID",
     "zillow:465254192"
@@ -1512,7 +1540,7 @@
    "posted": "2026-09-14",
    "firstSeen": "2026-11-14",
    "lastSeen": "2026-11-20",
-   "status": "active",
+   "status": "gone",
    "sourceIds": [
     "realtor:1279428600",
     "trulia:1002458507_BUILDING_ID",
@@ -1537,7 +1565,7 @@
    "posted": "2026-08-18",
    "firstSeen": "2026-11-14",
    "lastSeen": "2026-11-20",
-   "status": "active",
+   "status": "gone",
    "sourceIds": [
     "trulia:2116453545_ZPID",
     "zillow:2116453545"
@@ -1561,7 +1589,7 @@
    "posted": "2026-08-04",
    "firstSeen": "2026-11-14",
    "lastSeen": "2026-11-20",
-   "status": "active",
+   "status": "gone",
    "sourceIds": [
     "trulia:345922972_ZPID",
     "zillow:345922972"
@@ -1585,7 +1613,7 @@
    "posted": "2026-08-04",
    "firstSeen": "2026-11-14",
    "lastSeen": "2026-11-20",
-   "status": "active",
+   "status": "gone",
    "sourceIds": [
     "trulia:300255632_ZPID",
     "zillow:300255632"
@@ -1609,7 +1637,7 @@
    "posted": "2025-08-01",
    "firstSeen": "2026-11-14",
    "lastSeen": "2026-11-20",
-   "status": "active",
+   "status": "gone",
    "sourceIds": [
     "realtor:9467370590",
     "trulia:2750826330_BUILDING_ID",
@@ -1634,7 +1662,7 @@
    "posted": null,
    "firstSeen": "2026-11-14",
    "lastSeen": "2026-11-20",
-   "status": "active",
+   "status": "gone",
    "sourceIds": [
     "craigslist:8002157514",
     "craigslist:8002205667",
@@ -1712,7 +1740,7 @@
    "posted": null,
    "firstSeen": "2026-11-14",
    "lastSeen": "2026-11-20",
-   "status": "active",
+   "status": "gone",
    "sourceIds": [
     "realtor:2704986791",
     "trulia:2799512063_BUILDING_ID",
@@ -1737,7 +1765,7 @@
    "posted": null,
    "firstSeen": "2026-11-14",
    "lastSeen": "2026-11-20",
-   "status": "active",
+   "status": "gone",
    "sourceIds": [
     "realtor:9100996604"
    ]
