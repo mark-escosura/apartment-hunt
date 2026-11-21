@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21",
+ "updated": "2026-11-20",
  "criteria": {
   "cities": [
    "Turlock, CA",
@@ -291,7 +291,7 @@
    ],
    "firstSeen": "2026-11-16",
    "lastSeen": "2026-11-20",
-   "status": "gone"
+   "status": "active"
   },
   {
    "id": "140-ivy-patterson",
@@ -339,7 +339,7 @@
    "posted": "2026-11-14",
    "firstSeen": "2026-11-14",
    "lastSeen": "2026-11-20",
-   "status": "gone",
+   "status": "active",
    "sourceIds": [
     "realtor:9629308226",
     "trulia:466630865_ZPID",
@@ -348,15 +348,15 @@
   },
   {
    "id": "1700-tully-turlock",
-   "title": "Oak Park Apartments · 1700 N Tully Rd",
+   "title": "Oak Park Apartments \u00b7 1700 N Tully Rd",
    "address": "1700 N Tully Rd",
    "city": "Turlock",
    "price": 1740,
    "priceMax": 1830,
    "beds": 2,
-   "baths": "1–2",
+   "baths": "1\u20132",
    "washerDryer": "hookups",
-   "washerDryerNote": "Oak Park: washer/dryer hookups in all apartments (2bd units $1,740–$1,830)",
+   "washerDryerNote": "Oak Park: washer/dryer hookups in all apartments (2bd units $1,740\u2013$1,830)",
    "url": "https://www.zillow.com/apartments/turlock-ca/oak-park-apartments/5XjxJk/",
    "source": "Zillow",
    "sources": [],
@@ -364,7 +364,7 @@
    "posted": "2026-11-14",
    "firstSeen": "2026-11-14",
    "lastSeen": "2026-11-20",
-   "status": "gone",
+   "status": "active",
    "sourceIds": [
     "craigslist:7975450665",
     "craigslist:7975680756",
@@ -471,7 +471,7 @@
    "posted": "2026-11-13",
    "firstSeen": "2026-11-14",
    "lastSeen": "2026-11-20",
-   "status": "gone",
+   "status": "active",
    "sourceIds": [
     "realtor:9975165086",
     "trulia:466445469_ZPID",
@@ -496,7 +496,7 @@
    "posted": "2026-11-13",
    "firstSeen": "2026-11-14",
    "lastSeen": "2026-11-20",
-   "status": "gone",
+   "status": "active",
    "sourceIds": [
     "craigslist:8000295297"
    ]
@@ -509,7 +509,7 @@
    "price": 1795,
    "priceMax": 1895,
    "beds": 2,
-   "baths": "1–2",
+   "baths": "1\u20132",
    "washerDryer": "hookups",
    "washerDryerNote": "Craigslist laundry tag: w/d hookups",
    "url": "https://www.craigslist.org/view/d/turlock-apartments-available-dont-miss/aZeMwZCCsjZ8dEuAJ5u4pu",
@@ -519,7 +519,7 @@
    "posted": "2026-11-13",
    "firstSeen": "2026-11-14",
    "lastSeen": "2026-11-20",
-   "status": "gone",
+   "status": "active",
    "sourceIds": [
     "craigslist:7999476900",
     "craigslist:7999543497",
@@ -559,7 +559,7 @@
    "posted": "2026-11-12",
    "firstSeen": "2026-11-14",
    "lastSeen": "2026-11-20",
-   "status": "gone",
+   "status": "active",
    "sourceIds": [
     "trulia:460916951_ZPID",
     "zillow:460916951"
@@ -583,7 +583,7 @@
    "posted": "2026-11-12",
    "firstSeen": "2026-11-14",
    "lastSeen": "2026-11-20",
-   "status": "gone",
+   "status": "active",
    "sourceIds": [
     "craigslist:7998492132",
     "trulia:466522446_ZPID",
@@ -608,7 +608,7 @@
    "posted": "2026-11-12",
    "firstSeen": "2026-11-14",
    "lastSeen": "2026-11-20",
-   "status": "gone",
+   "status": "active",
    "sourceIds": [
     "craigslist:7996005681",
     "realtor:2462061268",
@@ -634,7 +634,7 @@
    "posted": "2026-11-12",
    "firstSeen": "2026-11-14",
    "lastSeen": "2026-11-20",
-   "status": "gone",
+   "status": "active",
    "sourceIds": [
     "craigslist:7995390060",
     "realtor:2139839908",
@@ -660,7 +660,7 @@
    "posted": "2026-11-12",
    "firstSeen": "2026-11-14",
    "lastSeen": "2026-11-20",
-   "status": "gone",
+   "status": "active",
    "sourceIds": [
     "craigslist:7982525124",
     "craigslist:8001605262",
@@ -688,7 +688,7 @@
    "posted": "2026-11-12",
    "firstSeen": "2026-11-14",
    "lastSeen": "2026-11-20",
-   "status": "gone",
+   "status": "active",
    "sourceIds": [
     "craigslist:7982527449",
     "craigslist:8001603807",
@@ -714,7 +714,7 @@
    "posted": "2026-11-12",
    "firstSeen": "2026-11-14",
    "lastSeen": "2026-11-20",
-   "status": "gone",
+   "status": "active",
    "sourceIds": [
     "realtor:2063612710"
    ]
@@ -737,7 +737,7 @@
    "posted": "2026-11-11",
    "firstSeen": "2026-11-14",
    "lastSeen": "2026-11-20",
-   "status": "gone",
+   "status": "active",
    "sourceIds": [
     "craigslist:7995479940",
     "trulia:2054010814_ZPID",
@@ -752,7 +752,7 @@
    "price": 1750,
    "priceMax": 1850,
    "beds": 2,
-   "baths": "1–1.5",
+   "baths": "1\u20131.5",
    "washerDryer": "unconfirmed",
    "washerDryerNote": "Zillow lists 'Washer'; Craigslist tag says laundry on site",
    "url": "https://www.zillow.com/homedetails/957-Wakefield-Rd-Turlock-CA-95380/463727889_zpid/",
@@ -787,7 +787,7 @@
    "posted": "2026-11-05",
    "firstSeen": "2026-11-14",
    "lastSeen": "2026-11-20",
-   "status": "gone",
+   "status": "active",
    "sourceIds": [
     "trulia:457349318_ZPID",
     "zillow:457349318"
@@ -811,7 +811,7 @@
    "posted": "2026-11-05",
    "firstSeen": "2026-11-14",
    "lastSeen": "2026-11-20",
-   "status": "gone",
+   "status": "active",
    "sourceIds": [
     "trulia:466464308_ZPID",
     "zillow:466464308"
@@ -835,7 +835,7 @@
    "posted": "2026-11-05",
    "firstSeen": "2026-11-14",
    "lastSeen": "2026-11-20",
-   "status": "gone",
+   "status": "active",
    "sourceIds": [
     "trulia:466452973_ZPID",
     "zillow:466452973"
@@ -912,7 +912,7 @@
    "posted": "2026-11-01",
    "firstSeen": "2026-11-14",
    "lastSeen": "2026-11-20",
-   "status": "gone",
+   "status": "active",
    "sourceIds": [
     "realtor:9164620920",
     "trulia:113060054_ZPID",
@@ -937,7 +937,7 @@
    "posted": "2026-10-30",
    "firstSeen": "2026-11-14",
    "lastSeen": "2026-11-20",
-   "status": "gone",
+   "status": "active",
    "sourceIds": [
     "trulia:463013873_ZPID",
     "zillow:463013873"
@@ -961,7 +961,7 @@
    "posted": "2026-10-29",
    "firstSeen": "2026-11-14",
    "lastSeen": "2026-11-20",
-   "status": "gone",
+   "status": "active",
    "sourceIds": [
     "realtor:9525583869"
    ]
@@ -984,7 +984,7 @@
    "posted": "2026-10-27",
    "firstSeen": "2026-11-14",
    "lastSeen": "2026-11-20",
-   "status": "gone",
+   "status": "active",
    "sourceIds": [
     "craigslist:7975808892",
     "craigslist:7984954920",
@@ -1009,7 +1009,7 @@
    "posted": "2026-10-26",
    "firstSeen": "2026-11-14",
    "lastSeen": "2026-11-20",
-   "status": "gone",
+   "status": "active",
    "sourceIds": [
     "craigslist:7982426730"
    ]
@@ -1085,7 +1085,7 @@
    "posted": "2026-10-17",
    "firstSeen": "2026-11-14",
    "lastSeen": "2026-11-20",
-   "status": "gone",
+   "status": "active",
    "sourceIds": [
     "realtor:9773477665"
    ]
@@ -1108,7 +1108,7 @@
    "posted": "2026-10-15",
    "firstSeen": "2026-11-14",
    "lastSeen": "2026-11-20",
-   "status": "gone",
+   "status": "active",
    "sourceIds": [
     "trulia:466042135_ZPID",
     "zillow:466042135"
@@ -1132,7 +1132,7 @@
    "posted": "2026-10-13",
    "firstSeen": "2026-11-14",
    "lastSeen": "2026-11-20",
-   "status": "gone",
+   "status": "active",
    "sourceIds": [
     "trulia:464692116_ZPID",
     "zillow:464692116"
@@ -1156,7 +1156,7 @@
    "posted": "2026-10-13",
    "firstSeen": "2026-11-14",
    "lastSeen": "2026-11-20",
-   "status": "gone",
+   "status": "active",
    "sourceIds": [
     "trulia:2060883056_ZPID",
     "zillow:2060883056"
@@ -1180,7 +1180,7 @@
    "posted": "2026-10-12",
    "firstSeen": "2026-11-14",
    "lastSeen": "2026-11-20",
-   "status": "gone",
+   "status": "active",
    "sourceIds": [
     "trulia:465014867_ZPID",
     "zillow:465014867"
@@ -1232,7 +1232,7 @@
    "posted": "2026-10-09",
    "firstSeen": "2026-11-14",
    "lastSeen": "2026-11-20",
-   "status": "gone",
+   "status": "active",
    "sourceIds": [
     "trulia:463520176_ZPID",
     "zillow:463520176"
@@ -1285,7 +1285,7 @@
    "posted": "2026-10-08",
    "firstSeen": "2026-11-14",
    "lastSeen": "2026-11-20",
-   "status": "gone",
+   "status": "active",
    "sourceIds": [
     "trulia:16033845_ZPID",
     "zillow:16033845"
@@ -1361,7 +1361,7 @@
    "posted": "2026-10-06",
    "firstSeen": "2026-11-14",
    "lastSeen": "2026-11-20",
-   "status": "gone",
+   "status": "active",
    "sourceIds": [
     "trulia:82398379_ZPID",
     "zillow:82398379"
@@ -1385,7 +1385,7 @@
    "posted": "2026-10-01",
    "firstSeen": "2026-11-14",
    "lastSeen": "2026-11-20",
-   "status": "gone",
+   "status": "active",
    "sourceIds": [
     "trulia:2053191557_ZPID",
     "zillow:2053191557"
@@ -1409,7 +1409,7 @@
    "posted": "2026-09-30",
    "firstSeen": "2026-11-14",
    "lastSeen": "2026-11-20",
-   "status": "gone",
+   "status": "active",
    "sourceIds": [
     "trulia:463808248_ZPID",
     "zillow:463808248"
@@ -1433,7 +1433,7 @@
    "posted": "2026-09-28",
    "firstSeen": "2026-11-14",
    "lastSeen": "2026-11-20",
-   "status": "gone",
+   "status": "active",
    "sourceIds": [
     "realtor:2125976977",
     "trulia:16046777_ZPID",
@@ -1492,7 +1492,7 @@
    "posted": "2026-09-16",
    "firstSeen": "2026-11-14",
    "lastSeen": "2026-11-20",
-   "status": "gone",
+   "status": "active",
    "sourceIds": [
     "trulia:2094226271_ZPID",
     "zillow:2094226271"
@@ -1516,7 +1516,7 @@
    "posted": "2026-09-14",
    "firstSeen": "2026-11-14",
    "lastSeen": "2026-11-20",
-   "status": "gone",
+   "status": "active",
    "sourceIds": [
     "trulia:465254192_ZPID",
     "zillow:465254192"
@@ -1524,7 +1524,7 @@
   },
   {
    "id": "1190-kenwood-turlock",
-   "title": "Charming Townhouse in Turlock · 1190 Kenwood Ave #5",
+   "title": "Charming Townhouse in Turlock \u00b7 1190 Kenwood Ave #5",
    "address": "1190 Kenwood Ave #5",
    "city": "Turlock",
    "price": 1525,
@@ -1540,7 +1540,7 @@
    "posted": "2026-09-14",
    "firstSeen": "2026-11-14",
    "lastSeen": "2026-11-20",
-   "status": "gone",
+   "status": "active",
    "sourceIds": [
     "realtor:1279428600",
     "trulia:1002458507_BUILDING_ID",
@@ -1565,7 +1565,7 @@
    "posted": "2026-08-18",
    "firstSeen": "2026-11-14",
    "lastSeen": "2026-11-20",
-   "status": "gone",
+   "status": "active",
    "sourceIds": [
     "trulia:2116453545_ZPID",
     "zillow:2116453545"
@@ -1589,7 +1589,7 @@
    "posted": "2026-08-04",
    "firstSeen": "2026-11-14",
    "lastSeen": "2026-11-20",
-   "status": "gone",
+   "status": "active",
    "sourceIds": [
     "trulia:345922972_ZPID",
     "zillow:345922972"
@@ -1613,7 +1613,7 @@
    "posted": "2026-08-04",
    "firstSeen": "2026-11-14",
    "lastSeen": "2026-11-20",
-   "status": "gone",
+   "status": "active",
    "sourceIds": [
     "trulia:300255632_ZPID",
     "zillow:300255632"
@@ -1637,7 +1637,7 @@
    "posted": "2025-08-01",
    "firstSeen": "2026-11-14",
    "lastSeen": "2026-11-20",
-   "status": "gone",
+   "status": "active",
    "sourceIds": [
     "realtor:9467370590",
     "trulia:2750826330_BUILDING_ID",
@@ -1646,7 +1646,7 @@
   },
   {
    "id": "3025-christoffersen-turlock",
-   "title": "Sierra Oaks · 3025 W Christoffersen Pkwy",
+   "title": "Sierra Oaks \u00b7 3025 W Christoffersen Pkwy",
    "address": "3025 W Christoffersen Pkwy",
    "city": "Turlock",
    "price": 1929,
@@ -1654,7 +1654,7 @@
    "beds": 2,
    "baths": 2.0,
    "washerDryer": "in-unit",
-   "washerDryerNote": "Sierra Oaks: laundry in unit; 2bd advertised $1,929–$2,197",
+   "washerDryerNote": "Sierra Oaks: laundry in unit; 2bd advertised $1,929\u2013$2,197",
    "url": "https://www.craigslist.org/view/d/turlock-move-in-special-available-stop/r7WwEBf3duyVkvHma9piFk",
    "source": "Zillow",
    "sources": [],
@@ -1662,7 +1662,7 @@
    "posted": null,
    "firstSeen": "2026-11-14",
    "lastSeen": "2026-11-20",
-   "status": "gone",
+   "status": "active",
    "sourceIds": [
     "craigslist:8002157514",
     "craigslist:8002205667",
@@ -1674,7 +1674,7 @@
   },
   {
    "id": "351-monte-turlock",
-   "title": "Briarwood Apartments · 351 E Monte Vista Ave",
+   "title": "Briarwood Apartments \u00b7 351 E Monte Vista Ave",
    "address": "351 E Monte Vista Ave",
    "city": "Turlock",
    "price": 1690,
@@ -1699,7 +1699,7 @@
   },
   {
    "id": "1100-pedras-turlock",
-   "title": "Park Knolls Apartments · 1100 Pedras Rd",
+   "title": "Park Knolls Apartments \u00b7 1100 Pedras Rd",
    "address": "1100 Pedras Rd",
    "city": "Turlock",
    "price": 1642,
@@ -1724,7 +1724,7 @@
   },
   {
    "id": "1525-monte-turlock",
-   "title": "Monte Vista Apartments · 1525 W Monte Vista Ave",
+   "title": "Monte Vista Apartments \u00b7 1525 W Monte Vista Ave",
    "address": "1525 W Monte Vista Ave",
    "city": "Turlock",
    "price": 2085,
@@ -1740,7 +1740,7 @@
    "posted": null,
    "firstSeen": "2026-11-14",
    "lastSeen": "2026-11-20",
-   "status": "gone",
+   "status": "active",
    "sourceIds": [
     "realtor:2704986791",
     "trulia:2799512063_BUILDING_ID",
@@ -1765,7 +1765,7 @@
    "posted": null,
    "firstSeen": "2026-11-14",
    "lastSeen": "2026-11-20",
-   "status": "gone",
+   "status": "active",
    "sourceIds": [
     "realtor:9100996604"
    ]
