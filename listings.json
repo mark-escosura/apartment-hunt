@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21",
+ "updated": "2026-11-22",
  "criteria": {
   "cities": [
    "Turlock, CA",
@@ -57,20 +57,7 @@
    "washerDryerNote": "Listing says laundry area w/hookups; available Dec 4",
    "url": "https://www.realtor.com/rentals/details/696-Chestnut-St_Turlock_CA_95380_M17189-58353",
    "source": "Realtor.com",
-   "sources": [
-    {
-     "name": "Realtor.com",
-     "url": "https://www.realtor.com/rentals/details/696-Chestnut-St_Turlock_CA_95380_M17189-58353"
-    },
-    {
-     "name": "Trulia",
-     "url": "https://www.trulia.com/home/696-chestnut-st-turlock-ca-95380-16033781"
-    },
-    {
-     "name": "Redfin",
-     "url": "https://www.redfin.com/CA/Turlock/696-Chestnut-St-95380/home/19942230"
-    }
-   ],
+   "sources": [],
    "photo": "https://ap.rdcpix.com/6ed6a5f271577e75f34f363d1a37dea4l-m4251860400s.jpg",
    "posted": "2026-11-18",
    "sourceIds": [
@@ -79,7 +66,7 @@
     "zillow:16033781"
    ],
    "firstSeen": "2026-11-18",
-   "lastSeen": "2026-11-20",
+   "lastSeen": "2026-11-22",
    "status": "active"
   },
   {
@@ -95,20 +82,7 @@
    "washerDryerNote": "Listing says laundry room w/hookups; available Nov 23",
    "url": "https://www.realtor.com/rentals/details/307-S-Del-Puerto-Ave_Patterson_CA_95363_M14375-89115",
    "source": "Realtor.com",
-   "sources": [
-    {
-     "name": "Realtor.com",
-     "url": "https://www.realtor.com/rentals/details/307-S-Del-Puerto-Ave_Patterson_CA_95363_M14375-89115"
-    },
-    {
-     "name": "Trulia",
-     "url": "https://www.trulia.com/home/307-s-del-puerto-ave-patterson-ca-95363-16079712"
-    },
-    {
-     "name": "Redfin",
-     "url": "https://www.redfin.com/CA/Patterson/307-S-Del-Puerto-Ave-95363/home/19898237"
-    }
-   ],
+   "sources": [],
    "photo": "https://ap.rdcpix.com/01d42093b1d4a42455b65a7874b843f8l-m2345611494s.jpg",
    "posted": "2026-11-18",
    "sourceIds": [
@@ -117,7 +91,7 @@
     "zillow:16079712"
    ],
    "firstSeen": "2026-11-18",
-   "lastSeen": "2026-11-20",
+   "lastSeen": "2026-11-22",
    "status": "active"
   },
   {
@@ -226,12 +200,7 @@
    "washerDryerNote": "Listing text: inside washer & dryer hook-ups; loft advertised as a possible 3rd room",
    "url": "https://www.redfin.com/CA/Turlock/402-S-Laurel-St-95380/home/201574473",
    "source": "Redfin",
-   "sources": [
-    {
-     "name": "Redfin",
-     "url": "https://www.redfin.com/CA/Turlock/402-S-Laurel-St-95380/home/201574473"
-    }
-   ],
+   "sources": [],
    "photo": null,
    "posted": null,
    "sourceIds": [
@@ -239,7 +208,7 @@
     "zillow:2079217486"
    ],
    "firstSeen": "2026-11-18",
-   "lastSeen": "2026-11-20",
+   "lastSeen": "2026-11-22",
    "status": "active"
   },
   {
@@ -262,7 +231,7 @@
     "craigslist:8001326331"
    ],
    "firstSeen": "2026-11-16",
-   "lastSeen": "2026-11-20",
+   "lastSeen": "2026-11-22",
    "status": "active"
   },
   {
@@ -310,7 +279,7 @@
    "photo": "https://photos.zillowstatic.com/fp/6f9d9f3605b1485b2b40eb63caf20d8d-p_e.jpg",
    "posted": "2026-11-14",
    "firstSeen": "2026-11-14",
-   "lastSeen": "2026-11-20",
+   "lastSeen": "2026-11-22",
    "status": "active",
    "sourceIds": [
     "realtor:9629308226",
@@ -335,7 +304,7 @@
    "photo": "https://photos.zillowstatic.com/fp/6df533a4ebb2ec8651129efc850c3a5d-p_e.jpg",
    "posted": "2026-11-14",
    "firstSeen": "2026-11-14",
-   "lastSeen": "2026-11-20",
+   "lastSeen": "2026-11-22",
    "status": "active",
    "sourceIds": [
     "craigslist:7975450665",
@@ -442,7 +411,7 @@
    "photo": "https://photos.zillowstatic.com/fp/5fbb4c1430d8fd7b1112fc99c8755e70-p_e.jpg",
    "posted": "2026-11-13",
    "firstSeen": "2026-11-14",
-   "lastSeen": "2026-11-20",
+   "lastSeen": "2026-11-22",
    "status": "active",
    "sourceIds": [
     "realtor:9975165086",
@@ -467,7 +436,7 @@
    "photo": "https://images.craigslist.org/00i0i_eLEHWKA6Owq_0t20CI_600x450.jpg",
    "posted": "2026-11-13",
    "firstSeen": "2026-11-14",
-   "lastSeen": "2026-11-20",
+   "lastSeen": "2026-11-22",
    "status": "active",
    "sourceIds": [
     "craigslist:8000295297"
@@ -490,7 +459,7 @@
    "photo": "https://images.craigslist.org/00e0e_hCOyuamdM2a_0jm0cU_600x450.jpg",
    "posted": "2026-11-13",
    "firstSeen": "2026-11-14",
-   "lastSeen": "2026-11-20",
+   "lastSeen": "2026-11-22",
    "status": "active",
    "sourceIds": [
     "craigslist:7999476900",
@@ -554,7 +523,7 @@
    "photo": "https://photos.zillowstatic.com/fp/fe158d02f8ba539749c22fc1dd000106-p_e.jpg",
    "posted": "2026-11-12",
    "firstSeen": "2026-11-14",
-   "lastSeen": "2026-11-20",
+   "lastSeen": "2026-11-22",
    "status": "active",
    "sourceIds": [
     "craigslist:7998492132",
@@ -579,7 +548,7 @@
    "photo": "https://photos.zillowstatic.com/fp/7b1916d1d39b780e47138252387d81ab-p_e.jpg",
    "posted": "2026-11-12",
    "firstSeen": "2026-11-14",
-   "lastSeen": "2026-11-20",
+   "lastSeen": "2026-11-22",
    "status": "active",
    "sourceIds": [
     "craigslist:7996005681",
@@ -605,7 +574,7 @@
    "photo": "https://photos.zillowstatic.com/fp/1d7f97e05521155ed3b58e12237caa9e-p_e.jpg",
    "posted": "2026-11-12",
    "firstSeen": "2026-11-14",
-   "lastSeen": "2026-11-20",
+   "lastSeen": "2026-11-22",
    "status": "active",
    "sourceIds": [
     "craigslist:7995390060",
@@ -631,7 +600,7 @@
    "photo": "https://photos.zillowstatic.com/fp/523991cbf2e1711c8d590600ae0f61c4-p_e.jpg",
    "posted": "2026-11-12",
    "firstSeen": "2026-11-14",
-   "lastSeen": "2026-11-20",
+   "lastSeen": "2026-11-22",
    "status": "active",
    "sourceIds": [
     "craigslist:7982525124",
@@ -660,7 +629,7 @@
    "posted": "2026-11-12",
    "firstSeen": "2026-11-14",
    "lastSeen": "2026-11-20",
-   "status": "active",
+   "status": "gone",
    "sourceIds": [
     "craigslist:7982527449",
     "craigslist:8001603807",
@@ -685,7 +654,7 @@
    "photo": "https://ar.rdcpix.com/50282e1aa19f7591e3704acfbbe2e727c-f2741054887s.jpg",
    "posted": "2026-11-12",
    "firstSeen": "2026-11-14",
-   "lastSeen": "2026-11-20",
+   "lastSeen": "2026-11-22",
    "status": "active",
    "sourceIds": [
     "realtor:2063612710"
@@ -708,7 +677,7 @@
    "photo": "https://photos.zillowstatic.com/fp/8791e6753ac0f9d2c532aa253eb3fc23-p_e.jpg",
    "posted": "2026-11-11",
    "firstSeen": "2026-11-14",
-   "lastSeen": "2026-11-20",
+   "lastSeen": "2026-11-22",
    "status": "active",
    "sourceIds": [
     "craigslist:7995479940",
@@ -733,8 +702,8 @@
    "photo": "https://photos.zillowstatic.com/fp/4cee9d473bc4b7f1ff95caddd1e3392c-p_e.jpg",
    "posted": "2026-11-09",
    "firstSeen": "2026-11-14",
-   "lastSeen": "2026-11-18",
-   "status": "gone",
+   "lastSeen": "2026-11-22",
+   "status": "active",
    "sourceIds": [
     "craigslist:7997969823",
     "trulia:463727889_ZPID",
@@ -818,7 +787,7 @@
    "title": "3701 Crowell Rd",
    "address": "3701 Crowell Rd",
    "city": "Turlock",
-   "price": 1699,
+   "price": 1775,
    "priceMax": 1775,
    "beds": 2,
    "baths": 1.0,
@@ -830,8 +799,8 @@
    "photo": "https://images.craigslist.org/00c0c_jrgSGhY1uRS_0hN0n0_600x450.jpg",
    "posted": "2026-11-04",
    "firstSeen": "2026-11-14",
-   "lastSeen": "2026-11-18",
-   "status": "gone",
+   "lastSeen": "2026-11-22",
+   "status": "active",
    "sourceIds": [
     "craigslist:7995196740",
     "realtor:9542927739"
@@ -883,7 +852,7 @@
    "photo": "https://photos.zillowstatic.com/fp/650eb186269158e62c502a7392be4b4b-p_e.jpg",
    "posted": "2026-11-01",
    "firstSeen": "2026-11-14",
-   "lastSeen": "2026-11-20",
+   "lastSeen": "2026-11-22",
    "status": "active",
    "sourceIds": [
     "realtor:9164620920",
@@ -933,7 +902,7 @@
    "posted": "2026-10-29",
    "firstSeen": "2026-11-14",
    "lastSeen": "2026-11-20",
-   "status": "active",
+   "status": "gone",
    "sourceIds": [
     "realtor:9525583869"
    ]
@@ -955,7 +924,7 @@
    "photo": "https://images.craigslist.org/01111_eUumlk2xEew_0ak07K_600x450.jpg",
    "posted": "2026-10-27",
    "firstSeen": "2026-11-14",
-   "lastSeen": "2026-11-20",
+   "lastSeen": "2026-11-22",
    "status": "active",
    "sourceIds": [
     "craigslist:7975808892",
@@ -980,7 +949,7 @@
    "photo": null,
    "posted": "2026-10-26",
    "firstSeen": "2026-11-14",
-   "lastSeen": "2026-11-20",
+   "lastSeen": "2026-11-22",
    "status": "active",
    "sourceIds": [
     "craigslist:7982426730"
@@ -1056,7 +1025,7 @@
    "photo": "https://ap.rdcpix.com/a1a7f59fce3b14142f9ade1edcd07b13l-m3941213581s.jpg",
    "posted": "2026-10-17",
    "firstSeen": "2026-11-14",
-   "lastSeen": "2026-11-20",
+   "lastSeen": "2026-11-22",
    "status": "active",
    "sourceIds": [
     "realtor:9773477665"
@@ -1425,20 +1394,11 @@
    "washerDryerNote": "Laundry not stated in listing",
    "url": "https://www.trulia.com/home/961-wakefield-rd-turlock-ca-95380-2059059023",
    "source": "Zillow",
-   "sources": [
-    {
-     "name": "Trulia",
-     "url": "https://www.trulia.com/home/961-wakefield-rd-turlock-ca-95380-2059059023"
-    },
-    {
-     "name": "Zillow",
-     "url": "https://www.zillow.com/homedetails/961-Wakefield-Rd-Turlock-CA-95380/2059059023_zpid/"
-    }
-   ],
+   "sources": [],
    "photo": "https://photos.zillowstatic.com/fp/807c367e7ba29cc5f30200d510c557a5-p_e.jpg",
    "posted": "2026-09-22",
    "firstSeen": "2026-11-14",
-   "lastSeen": "2026-11-20",
+   "lastSeen": "2026-11-22",
    "status": "active",
    "sourceIds": [
     "realtor:2653705705",
@@ -1487,7 +1447,7 @@
    "photo": "https://photos.zillowstatic.com/fp/b4d72cf7d25b3f3f8671fdba703b5a80-p_e.jpg",
    "posted": "2026-09-14",
    "firstSeen": "2026-11-14",
-   "lastSeen": "2026-11-20",
+   "lastSeen": "2026-11-22",
    "status": "active",
    "sourceIds": [
     "trulia:465254192_ZPID",
@@ -1511,7 +1471,7 @@
    "photo": "https://photos.zillowstatic.com/fp/9a4a0cc32e67fb3d6be2af580d354421-p_e.jpg",
    "posted": "2026-09-14",
    "firstSeen": "2026-11-14",
-   "lastSeen": "2026-11-20",
+   "lastSeen": "2026-11-22",
    "status": "active",
    "sourceIds": [
     "realtor:1279428600",
@@ -1608,7 +1568,7 @@
    "photo": "https://photos.zillowstatic.com/fp/69462debf6b8e23d2bbeb87a663313e7-p_e.jpg",
    "posted": "2025-08-01",
    "firstSeen": "2026-11-14",
-   "lastSeen": "2026-11-20",
+   "lastSeen": "2026-11-22",
    "status": "active",
    "sourceIds": [
     "realtor:9467370590",
@@ -1633,7 +1593,7 @@
    "photo": "https://photos.zillowstatic.com/fp/4168b9bdc4c70188a0f82f9b4cf0d69e-p_e.jpg",
    "posted": null,
    "firstSeen": "2026-11-14",
-   "lastSeen": "2026-11-20",
+   "lastSeen": "2026-11-22",
    "status": "active",
    "sourceIds": [
     "craigslist:8002157514",
@@ -1661,8 +1621,8 @@
    "photo": "https://photos.zillowstatic.com/fp/2916c62615a3930e78f657ec12f4b068-p_e.jpg",
    "posted": null,
    "firstSeen": "2026-11-14",
-   "lastSeen": "2026-11-18",
-   "status": "gone",
+   "lastSeen": "2026-11-22",
+   "status": "active",
    "sourceIds": [
     "realtor:2702413268",
     "trulia:1001466403_BUILDING_ID",
@@ -1686,8 +1646,8 @@
    "photo": "https://photos.zillowstatic.com/fp/d8a5964fb4f8bb8dba72f92f598c71ac-p_e.jpg",
    "posted": null,
    "firstSeen": "2026-11-14",
-   "lastSeen": "2026-11-18",
-   "status": "gone",
+   "lastSeen": "2026-11-22",
+   "status": "active",
    "sourceIds": [
     "realtor:2677892278",
     "trulia:1001467756_BUILDING_ID",
@@ -1711,7 +1671,7 @@
    "photo": "https://photos.zillowstatic.com/fp/356c73e8b8e3d96127a925bd890f12ce-p_e.jpg",
    "posted": null,
    "firstSeen": "2026-11-14",
-   "lastSeen": "2026-11-20",
+   "lastSeen": "2026-11-22",
    "status": "active",
    "sourceIds": [
     "realtor:2704986791",
@@ -1736,7 +1696,7 @@
    "photo": "https://ap.rdcpix.com/57f5ceffa8f0aea00b6353a3582cd9a2l-m1100645650s.jpg",
    "posted": null,
    "firstSeen": "2026-11-14",
-   "lastSeen": "2026-11-20",
+   "lastSeen": "2026-11-22",
    "status": "active",
    "sourceIds": [
     "realtor:9100996604"
